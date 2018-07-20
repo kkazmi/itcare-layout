@@ -89,7 +89,7 @@
                 <li class="hidden-lg hidden-md flagmenu"><a href="javascript:void(0);"><i class="list21"></i>Select IT-Care Websites</a>
                     <ul>
                         <li><a target="_blank" href="http://www.myoxigen.com/"><i class="india"></i>India: IT-Care Corporate Website</a></li>
-                        <li><a target="_blank" href="https://ro.oximall.com/index.aspx"><i class="india"></i>India Retail Access: mall</a></li>
+                        <li><a target="_blank" href="https://ro.oximall.com/index.aspx"><i class="india"></i>India Retail Access: Oximall</a></li>
                         <li><a target="_blank" href="http://www.mpowersoft.com/"><i class="india"></i>Technology Arm: Mpower Softcomm</a></li>
                         <li><a target="_blank" href="https://www.oxigenusa.com/"><i class="usa"></i>USA: IT-Care USA</a></li>
                     </ul>
@@ -154,9 +154,6 @@
                         <li class="dropdown wallet oneTimeHide"><a href="javascript:void(0);"><span class="hidden-xs hidden-sm">&nbsp;Balance&nbsp;</span>
               <span class="success">&nbsp;&#8377;&nbsp;0.00 </span></a></li>
                      
-
-                            </ul>
-                        </li> -->
                         <li class="after-login login last dropdown hide oneTimeShow"><a href="javascript:void(0);" class="dropdown-toggle" role="button" aria-expanded="false"><i class="sprite icon-bg"></i>
         <span class="hidden-xs" id="log-user-name"></span><span class="user-message hide">10</span> <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
