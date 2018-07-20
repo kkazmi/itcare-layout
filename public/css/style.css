@@ -1,0 +1,1966 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+:focus{outline:none}
+p{line-height:22px}
+.tooltip.in{opacity:1}
+.tooltip .tooltip-inner{background-color:rgba(255,255,255,1); border: 1px solid rgba(0,0,0,.2); box-shadow: 0 5px 10px rgba(0,0,0,.2);color:#454545; padding-top:10px; padding-bottom:10px;}
+.tooltip.top .tooltip-arrow{bottom:-3px; left:50%; content:""; border-top-color: #fff; border-bottom-width: 0; margin-left:-10px; border-width:10px 10px 0;}
+body{font-family: 'Roboto', sans-serif; background:#f4f7f9 url(../images/blue-shade.png) repeat-x 0 -10px; color:#555;}
+.no-body-image{ background-image: none !important;}
+.secondary-link a{color:#085eb8}
+.secondary-link a:hover{text-decoration:none;color:#777;}
+a, .btn.click{color:#085eb8; font-weight:400}
+a:focus{box-shadow:none; outline:none}
+a:hover, a:active, .btn.click:hover{color:#777; text-decoration:none}
+ul, ul li, ol, ol li{padding:0; margin:0; list-style-type:none}
+.icon-bg{background:#eff2f3; border:1px solid #e0e0e0; color:#686a6a; border-radius:100%; overflow:hidden}
+.form-control{box-shadow:none; -webkit-appearance: none;}
+.right-bor{border-right:1px solid #e5e5e5}
+small{color:#969696}
+.red{color:#ea474b;}
+.home section.white{padding:15px}
+.white{background:#fff; position:relative; float:left; width:100%; border-radius:5px; padding:20px; margin-bottom:20px}
+.sprite{background-image:url(../images/sprite.png)}
+.sprite-icon{background-image:url(../images/icon-sprite.png)}
+.shadow{/*-webkit-box-shadow:1px 1px 1px 0 rgba(0,0,0,0.2); -moz-box-shadow:1px 1px 1px 0 rgba(0,0,0,0.2); box-shadow:1px 1px 1px 0 rgba(0,0,0,0.2);*/ border:1px solid #dfdfdf;}
+.curve{border-radius:5px}
+.pad-full{padding:15px!important}
+.pad-null{padding:0!important}
+.mar-null{margin: 0!important}
+.no-pad-left{padding-left:0}
+.no-pad-right{padding-right:0}
+.no-pad-bottom{padding-bottom:0}
+.align-center{text-align:center;}
+.full-width{width:100%;}
+.mar-bottom{margin-bottom:20px}
+.mar-bottom-30{margin-bottom:30px}
+.mar-bottom-10{margin-bottom:10px!important}
+.mar-bottom-5{margin-bottom:5px!important}
+.mar-top{margin-top:20px}
+.mar-top-10{margin-top:10px !important}
+.mar-top-30{margin-top:30px}
+.no-mar-top{margin-top:0}
+.no-mar-bottom{margin-bottom:0!important}
+.space{min-height:12px}
+.gap{min-height:6px}
+.pad-150{padding-top:150px}
+.caret{display:inline-block; width:6px; height:5px; background:url(../images/tilt.png) no-repeat 0 0; margin-left:0; vertical-align:middle; border:none}
+.or-seprator{background:#c2c2c2; color:#fff; font-size:18px; width:45px; height:45px; display:inline-block; line-height:45px; font-weight:300}
+.black{color:#000}
+.grey-bg{background:#f6f7ee}
+.addvertisement{border:1px solid #e1e1e1; border-radius:5px; overflow:hidden}
+.button-right{text-align:right}
+.button-left{text-align:left}
+.heading-big{border-bottom:1px solid #e3e4e4; padding:0 0 10px; margin:0 0 20px; font-size:18px}
+.pad-15{padding:15px}
+.blue{color:#085eb8;}
+a.previous-icon, a.next-icon, a.plus, a.minus{width:23px; height:23px; background:#838484; border-radius:100%; margin:3px 0 0 0; line-height:25px; text-align:center; color:#fff; font-size:12px}
+a.disabled{background:#bbbdbe; cursor:default}
+a.disabled.morereview{pointer-events:none;background:none;color:#777;cursor:not-allowed;}
+.btn-resend.disable{pointer-events:none}
+a.plus, a.minus{margin:7px 4px 0; width:25px; height:25px; line-height:26px}
+a.plus{background:#085eb8}
+.filter-disabled{pointer-events: none;cursor: not-allowed;opacity: .65}
+.img-responsive{display:inline-block}
+.border{border:1px solid #ccc}
+.cardimages{background:url(../images/acc-card.png);width:46px;height:28px}
+.visa{background-position:0 0;}
+.mast{background-position:-49px 0;}
+.dinr{background-position:-101px 0;}
+.discover{background-position:0 0;}
+/*----Header----*/
+.navbar-default{background:#fff; border:none; border-radius:0; -webkit-box-shadow:0 1px 8px 0 rgba(0,0,0,0.2); -moz-box-shadow:0 1px 8px 0 rgba(0,0,0,0.2); box-shadow:0 1px 8px 0 rgba(0,0,0,0.2); margin-bottom:0; z-index:1;min-height:51px}
+.navbar-default .navbar-brand{width:183px; height:32px; padding:0; margin-top:10px; text-indent:-9999px; background:url(../images/logo-desktop.png) no-repeat 0 0; background-size:contain}
+/*----Fastacash----*/
+.fastacash{text-align:center; position:relative; background:#fff; border:none; border-radius:0; -webkit-box-shadow:0 1px 8px 0 rgba(0,0,0,0.2); -moz-box-shadow:0 1px 8px 0 rgba(0,0,0,0.2); box-shadow:0 1px 8px 0 rgba(0,0,0,0.2); margin-bottom:0; z-index:1; padding:0 0 10px 0}
+.fastacash .navbar-brand{width:183px; height:32px; padding:0; margin-top:10px; text-indent:-9999px; background:url(../images/logo-desktop.png) no-repeat 0 0; background-size:cover; float:none; display:inline-block}
+
+.navbar-nav>li{padding:0}
+header .nav > li:before{display:none}
+header .nav > li > a{color:#000!important}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#777!important}
+header .nav > li.login > a, header .nav > li.after-login > a{padding:15px 15px 15px 44px}
+header .nav > li.wallet > a{padding:15px 15px 15px 4px}
+header .nav > li.wallet > a > span{color:#777!important}
+header .nav > li > a:after{color:#b2b2b2; content:'|'; position:absolute; right:0; top:15px}
+header .nav > li.last > a:after{content:''}
+header .nav > li.wallet i{background-position:-166px 1px}
+/*header .nav > li.wallet>a:hover i, */header .nav > li.add-money>a:hover i{background-position:-365px -440px}
+header .nav > li.login i, header .nav > li.wallet i, header .nav > li.after-login i{width:30px; height:30px; position:absolute; top:8px; left:10px}
+header .nav > li.add-money a i{background-position:-101px -313px; width:30px; height:30px; position:absolute; top:9px; left:0}
+header .nav > li.add-money a{margin:0 3px 0 5px}
+header .nav > li.login i:before, header .nav > li.wallet i:before, header .nav > li.after-login i:before{left:0; right:0; margin:0 auto; text-align:center; top:7px; position:absolute; border:none}
+header .nav > li.login i{background-position:-125px -205px; opacity:0.6}
+header .nav > li.login a:hover i{opacity:10; border:1px solid #f5393d}
+header .nav > li.wallet a span.success{color:#0c8000!important; font-weight:500}
+header .nav > li.after-login > a > span{color:#777!important}
+header .nav > li.after-login > a > span.user-message{position:absolute; background:#ff0000; width:18px; height:18px; border-radius:100%; color:#fff!important; font-size:11px; text-align:center; left:32px; top:0; font-family:arial; line-height:18px}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{background:#fff}
+/*----Dropdown Menu----*/
+header .dropdown-menu{min-width:200px; padding:0; margin-left:0}
+header .dropdown-menu:before{width:0; height:0; border-left:8px solid transparent; border-right:8px solid transparent; border-bottom:8px solid #ddd; content:''; position:absolute; right:5%; top:-8px}
+header .dropdown-menu > li{border-bottom:1px dashed #ccc; padding:0}
+header .dropdown-menu > li:before{display:none}
+header .dropdown-menu > li:last-child{border-bottom-color:transparent}
+header .dropdown-menu > li > a{padding:7px 10px}
+header .dropdown-menu > li > a:hover, header .dropdown-menu > li > a.active{color:#085eb8; text-decoration:none; background-color:#f4f7f9;}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i{width:20px; height:21px; display:inline-block; float:left; position:inherit; margin-right:8px; left:0; top:0; border:none}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.profile{background-position:-412px -1px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.profile{background-position:-436px -1px}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.loyalty-points{background-position:-412px -31px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.loyalty-points{background-position:-436px -31px}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.m-gift-card{background-position:-412px -62px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.m-gift-card{background-position:-436px -62px}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.v-v-card{background-position:-412px -92px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.v-v-card{background-position:-436px -92px}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.f-tansition{background-position:-412px -122px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.f-tansition{background-position:-436px -122px}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.t-history{background-position:-412px -152px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.t-history{background-position:-436px -152px}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.refer-friend{background-position:-412px -182px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.refer-friend{background-position:-436px -182px}
+header .nav > li.after-login > ul.dropdown-menu > li > a > i.logout{background-position:-412px -212px}
+header .nav > li.after-login > ul.dropdown-menu > li > a:hover > i.logout{background-position:-436px -212px}
+
+header .nav > li.wallet.open a{background:transparent!important}
+header .dropdown-menu.balance-summary{min-width:320px; padding:5px 10px 10px; border-radius:0 0 8px 8px}
+header .dropdown-menu.balance-summary p{font-style:italic}
+header .dropdown-menu.balance-summary hr{border-top:1px dashed #cccccc; margin:8px 5px}
+header .dropdown.select-website a i{width:28px;height:18px;display:inline-block;background-position: -515px -221px;vertical-align:middle}
+header .dropdown-menu.flag-summary{min-width:320px; padding:5px 0 0; border-radius:0 0 8px 8px}
+header .dropdown-menu.flag-summary li i, .flagmenu ul li a i{width:23px; height:17px; float:left; background:url(../images/india.png) no-repeat 0 0; margin:1px 8px 0 0}
+header .dropdown-menu.flag-summary li i.usa, .flagmenu ul li a i.usa{background:url(../images/usa.png) no-repeat 0 0;}
+header .dropdown-menu.flag-summary li i.uae, .flagmenu ul li a i.uae{background:url(../images/uae.png) no-repeat 0 0;}
+
+header .dropdown-menu.flag-summary li.chakra{padding:0 10px 8px; line-height:25px; font-weight:500; border-bottom:1px solid #dadada; position:relative}
+header .dropdown-menu.flag-summary li.chakra:after{width: 0; height: 0; border-left:7px solid transparent;border-right:7px solid transparent; border-top:7px solid #104c90; content:''; position:absolute; right:12px; top:9px}
+header .dropdown-menu.flag-summary li.chakra i{width:24px; height:24px; background:url(../images/chakra.png) no-repeat 0 0;}
+
+header .nav > li.wallet .dropdown-menu.balance-summary i{width:21px; height:20px; position:inherit; left:0; top:0; display:inline-block; float:left; margin-right:10px}
+header .nav > li.wallet .dropdown-menu.balance-summary i.payback-balance{background-position:-473px -370px}
+header .nav > li.wallet .dropdown-menu.balance-summary i.cash-back{background-position:-249px -74px}
+header .nav > li.wallet .dropdown-menu.balance-summary i.wallet-balance{background-position:-249px -101px}
+
+/*----Navbar----*/
+.nav-bar{font-size:16px; text-align:center; background:#d32f2f; border-radius:0;/* -webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.2); -moz-box-shadow:0 1px 2px 0 rgba(0,0,0,0.2); box-shadow:0 1px 2px 0 rgba(0,0,0,0.2); border-radius:0 0 5px 5px*/}
+.nav-bar a i{width:32px; height:31px; display:block; margin:0 auto;}
+.nav-bar a.showcase i{background-position:-395px -380px}
+.nav-bar a.showcase:hover i {background-position:-346px -380px}
+
+
+.nav-bar a.expenseTopMenu i { background-position: -4px -4px; }
+.nav-bar a.expenseTopMenu:hover i { background-position: -54px -4px; }
+
+.nav-bar a.services i{background-position:-4px -43px}
+.nav-bar a.services:hover i, .nav-bar a.services.active i{background-position:-54px -43px}
+.nav-bar a.deals-offer i{background-position:-4px -84px}
+.nav-bar a.deals-offer:hover i, .nav-bar a.deals-offer.active i{background-position:-54px -84px}
+.nav-bar a.vvc i{background-position:-466px -252px}
+.nav-bar a.vvc:hover i, .nav-bar a.vvc.active i{background-position:-466px -282px}
+.nav-bar a.favorite i{background-position:-4px -123px}
+.nav-bar a.favorite:hover i, .nav-bar a.favorite.active i{background-position:-54px -123px}
+.nav-bar a.add-money i{background-position:-4px -164px}
+.nav-bar a.add-money:hover i, .nav-bar a.add-money.active i{background-position:-54px -164px}
+.nav-bar a.support i{background-position:-4px -203px}
+.nav-bar a.support:hover i, .nav-bar a.support.active i{background-position:-54px -203px}
+
+/*----Sortable----*/
+.connected{-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select: none; -ms-user-select:none; user-select:none;}
+.sortable-placeholder{border:1px dashed #CCC; background:none; height:100px}
+
+/*----Heading----*/
+.heading h1, .heading h2, .heading h3, .heading h4{font-size:18px; color:#000; padding:0; margin:0; text-transform:capitalize; font-weight:400; padding-top:3px}
+.heading-inner p{margin:15px 0}
+.heading-inner h1, .heading-inner h2{padding:0; margin:0}
+.heading-inner h1{font-weight:500; font-size:23px; color:#d32f2f}
+.heading-inner h3{font-size:18px; font-weight:400; color:#666;}
+.heading-inner h2{font-size:16px; font-weight:500; color:#454545}
+.heading-inner i{margin-right:5px}
+
+.heading span a, .heading-inner span a{margin-left:10px}
+/*.heading span i, .heading-inner span i{color:#999999; font-size:20px}
+.heading span i:hover, .heading-inner span i:hover{color:#f5393d}*/
+.heading hr, .heading-inner hr{margin:10px 0 20px}
+.heading span i.info, .heading-inner span i.info{width:21px; height:21px; display:inline-block; background-position:-160px -208px}
+.heading span i.home-icon{width:21px; height:21px; display:inline-block; background-position:-472px -194px; cursor:pointer}
+.heading span a:hover i.info, .heading-inner span a:hover i.info{background-position:-187px -208px}
+.heading-left h4{padding:15px; font-size:15px; margin:0; font-weight:400; text-transform:uppercase}
+.heading-left hr{margin:0}
+.electricity .form-control{height:38px;}
+.electricity i.info{width:21px; height:21px; display:inline-block; background-position:-160px -208px; cursor:pointer}
+
+/*----Tabs----*/
+.recharge-bills .tabs{width:100%; overflow:auto; overflow-y:hidden; -webkit-overflow-scrolling: touch;}
+.recharge-bills .nav-tabs{border:none; text-align:center; margin:0; padding-bottom:8px}
+.recharge-bills .nav-tabs > li{/*width:14.222%;*/ width:74px; padding:0}
+.recharge-bills .nav-tabs > li:before{display:none}
+.recharge-bills .nav-tabs > li.active > a, .recharge-bills .nav-tabs > li.active > a:hover, .recharge-bills .nav-tabs > li.active > a:focus{border-radius:0; border:none}
+.recharge-bills .nav-tabs > li > a{padding:0; margin:0; font-size:13px; color:#494a4a; word-break:break-all; word-wrap:break-word; border:none; font-weight: 500;}
+.recharge-bills .nav-tabs > li > a:hover, .recharge-bills .nav-tabs > li > a:focus{background:transparent}
+.recharge-bills .nav-tabs i{width:40px; height:40px; display:block; margin:0 auto 3px; opacity:0.5}
+.recharge-bills .nav-tabs li.active a i, .recharge-bills .nav-tabs li a:hover i{opacity:10; border:1px solid #f5393d; -moz-box-shadow:inset 0px 0px 0px 1px #f5393d; -webkit-box-shadow:inset 0px 0px 0px 1px #f5393d; box-shadow:inset 0px 0px 0px 1px #f5393d}
+.recharge-bills .nav-tabs i.mobile{background-position:-85px 0}
+.recharge-bills .nav-tabs i.landline{background-position:-89px -34px}
+.recharge-bills .nav-tabs i.dth{background-position:-87px -67px}
+.recharge-bills .nav-tabs i.datacard{background-position:-89px -100px}
+.recharge-bills .nav-tabs i.gas{background-position:-86px -132px}
+.recharge-bills .nav-tabs i.electricity{background-position:-86px -166px}
+.recharge-bills .nav-tabs i.insurance{background-position:-86px -198px}
+.recharge-bills .nav-tabs i.broadband{background-position:-463px -392px}
+.recharge-bills .nav-tabs i.wallet{background-position:-213px -30px}
+.recharge-bills .nav-tabs i.bank{background-position:-123px -73px}
+.recharge-bills .nav-tabs i.social{background-position:-123px -104px}
+.recharge-bills .tab-content{margin-top:2%; min-height:230px;}
+/*.recharge-bills .tab-content span.browse-plan, .recharge-bills .tab-content span.browse-plan a, .recharge-bills .tab-content span.browse-plan a:hover{border-left:0px; color:#0000FF; background:#fff; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); border-color:#e1e1e1!important}*/
+.recharge-bills .input-group .input-group-addon, .recharge-bills .input-group .form-control, .recharge-bills .form-group .form-control{border-color:#d4d4d4}
+/*----Money Transfer Tabs----*/
+.money-transfer-section{padding-left:0}
+.recharge-bills.money-transfer{position:relative}
+.recharge-bills.money-transfer .steps{margin:0 0 15px 0}
+.recharge-bills.money-transfer .nav-tabs{width:auto; height:auto}
+.recharge-bills.money-transfer .nav-tabs > li{width:33.3333%}
+.recharge-bills.money-transfer .radio{margin:20px 0}
+.recharge-bills.money-transfer .tab-content{margin-top:0; min-height:156px}
+
+.box{background-color:rgba(255,255,255,1); border: 1px solid rgba(204,204,204,.35); color:#000; text-align:center; padding:10px 0; -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); border-radius:5px; min-height:92px; margin:15px 0}
+.box img{display:inline-block}
+
+/*----Visa Card----*/
+.visa-card-section{padding-right:0}
+.visa-card p{margin:20px 0;}
+.visa-card .card{-webkit-box-shadow:0 1px 1px 1px rgba(0,0,0,0.2); -moz-box-shadow:0 1px 1px 1px rgba(0,0,0,0.2); box-shadow:0px 1px 1px 1px rgba(0,0,0,0.2); overflow:hidden; border-radius:10px; text-align:center}
+
+.rupay-card .card{ margin-bottom: 10px; -webkit-box-shadow:0 1px 1px 1px rgba(0,0,0,0.2); -moz-box-shadow:0 1px 1px 1px rgba(0,0,0,0.2); box-shadow:0px 1px 1px 1px rgba(0,0,0,0.2); overflow:hidden; border-radius:10px; text-align:center}
+
+/*----Steps----*/
+.steps{color:#e5e5e5; float:right; margin-top:10px; margin-left:0}
+.steps li{float:left; position:relative; margin:0 7px; padding:0}
+.steps li:before{display:none}
+.steps li:last-child{margin-right:0}
+.steps li:after{content:'|'; position:absolute; right:-8px; top:0; transform:rotate(-90deg); font-size:14px; line-height:20px}
+.steps li:last-child:after{content:''!important}
+.steps li a{border:1px solid #cecece; color:#000; border-radius:20px; font-size:12px; width:20px; height:20px; display:block; text-align:center}
+.steps li a:hover{border:1px solid #cecece; color:#000; border-radius:20px; font-size:12px; width:20px; height:20px; display:block; text-align:center; text-decoration:none; cursor:default}
+.steps li a.active{border:1px solid #ccc; border-radius:100%; padding:1px 0 0 0; background:#f5393d; color:#fff; text-decoration:none}
+.steps li a:focus, .steps li a:active{text-decoration:none}
+/*----testimonial-slider----*/
+.testimonial-slider .user-image{width:60px; height:60px; overflow:hidden; border-radius:100%; float:left; margin-right:10px; border:1px solid #e0e0e0;}
+
+/*----Live Feeds----*/
+.customer-speak .heading h4{line-height:30px; width:100%;}
+.customer-speak .heading h4 i{background:url(../images/logo-320.png);width:30px; height:30px; float:left;background-size: contain;margin-right:10px}
+#live-feeds{height:248px; overflow:hidden}
+#live-feeds .feeds{border-bottom: 1px solid #efefef; float:left; width:100%; padding:4px 0 10px; margin-bottom: 10px;min-height:76px}
+#live-feeds .feeds .user-image{width:45px; height:45px; border-radius:50px; overflow:hidden; border:1px solid #efefef; margin-right:3%}
+#live-feeds .feeds p{margin:0}
+
+/*----Why Oxigen Wallet----*/
+.use-oxigen{font-size:14px; color:#454545;}
+.use-oxigen span{width:60px; height:60px; display:block; margin:0 auto 5px; position:relative}
+.use-oxigen span i{width:41px; height:44px; display:inline-block; position:absolute; right:0; left:0; margin:0 auto; top:14%}
+.use-oxigen p{margin-bottom:0; font-size:14px}
+.use-oxigen i.certify{background-position:-166px -37px}
+.use-oxigen i.self-secure{background-position:-165px -89px}
+.use-oxigen i.robust{background-position:-165px -143px}
+.use-oxigen i.care{background-position:-327px -314px}
+.use-oxigen i.enter-amount{background-position:6px -479px}
+.use-oxigen i.promo-code{background-position:-53px -479px}
+.use-oxigen i.payment-mode{background-position:-120px -479px}
+.use-oxigen i.add-money{background-position:-182px -480px}
+
+/*----Certificate----*/
+.Certificate{font-size:14px; color:#454545;}
+.Certificate span{width:100px; height:100px; display:block; margin:0 auto 5px; position:relative}
+.Certificate span i{width:50px; height:55px; display:inline-block; position:absolute; right:0; left:0; margin:0 auto; top:22%}
+.Certificate p{margin-bottom:5px; text-align:center}
+.Certificate i.certify{background-position:-5px -372px}
+.Certificate i.self-secure{background-position:-63px -372px}
+.Certificate i.robust{background-position:-123px -372px}
+.Certificate i.twenty-four{background-position:-173px -372px}
+.Certificate strong, strong{font-weight:500}
+
+.slick-slider.gift-card{min-height:inherit}
+#deal-tab-container .tab-content .tab-pane, .merchant-container .tab-content .tab-pane{ min-height: 400px}
+/*----Slick CSS----*/
+.slick-slider{position:relative; display:block; -moz-box-sizing:border-box; box-sizing:border-box; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; -webkit-touch-callout:none; -khtml-user-select:none;  user-select:none; -ms-touch-action:pan-y; touch-action:pan-y; -webkit-tap-highlight-color: transparent;}
+.slick-list{position:relative; display:block; overflow:hidden; margin:0; padding:0;}
+.slick-list:focus{outline:none;}
+.slick-list.dragging{cursor:pointer; cursor:hand;}
+.slick-slider .slick-track, .slick-slider .slick-list{-webkit-transform:translate3d(0, 0, 0); -moz-transform:translate3d(0, 0, 0); -ms-transform:translate3d(0, 0, 0); -o-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0);}
+.slick-track{position:relative; top:0; left:0; display:block;}
+.slick-track:before, .slick-track:after{display:table; content:'';}
+.slick-track:after{clear:both;}
+.slick-loading .slick-track{visibility:hidden;}
+.slick-slide{display:none; float:left; height:100%; min-height:1px;}
+[dir='rtl'] .slick-slide{float:right;}
+.slick-slide img{display:block;}
+.slick-slide.slick-loading img{display:none;}
+.slick-slide.dragging img{pointer-events:none;}
+.slick-initialized .slick-slide{display:block;}
+.slick-loading .slick-slide{visibility:hidden;}
+.slick-vertical .slick-slide{display:block; height:auto; border:1px solid transparent;}
+.slick-arrow.slick-hidden{display:none;}
+.gift-card-home.slick-slider .slick-slide div{padding: 0 8px}
+.gift-card-home{min-height: 100px; position:relative;}
+
+
+/*----Sachin Banner-----*/
+.sachin-banner.slick-slider .slick-list{margin:0;overflow:hidden; border-radius:5px}
+.sachin-banner ul.slick-dots{margin:0; position:absolute; bottom:0; width:100%; text-align:right}
+.sachin-banner ul.slick-dots li:before{display:none}
+.sachin-banner ul.slick-dots li{padding:0; height: 10px;display:inline; margin:0 3px}
+.sachin-banner ul.slick-dots li button{background:#ccc; border:1px solid #999; width:8px; height:8px; border-radius:12px; text-indent: -9999px;padding: 0;}
+.sachin-banner ul.slick-dots li.slick-active button{border:1px solid #00356b; background:#0c2c4e}
+
+/*----Slick Modify Css----*/
+.slick-slider button{border:none; background:transparent}
+.slick-slider .slick-list{margin:0 3%}
+.slick-slider .slick-arrow{width:12px; height:20px; text-indent:-9999px; position:absolute; top:35%; background-image:url(../images/sprite.png)}
+.slick-slider .slick-arrow.slick-prev{left:0; background-position:-139px -2px}
+.slick-slider .slick-arrow.slick-next{right:0; background-position:-125px -2px}
+
+/*----Merchant----*/
+.merchant-slider{width:100%}
+.merchant-slider.slick-slider button{display:none!important}
+.merchant-slider.slick-slider .slick-list{margin:0}
+.merchant-slider.slick-slider .slick-list img{display:inline-block}
+.more-merchants{margin-top:8px}
+.more-merchants a{text-align:right; font-size:16px; line-height:50px}
+i.more-merchants-icon{width:18px; height:54px; display:inline-block; background-position:-134px -148px; margin-left:10px}
+.merchant-slider .slick-slide img, .gift-card .slick-slide img{opacity:0.7}
+.merchant-slider .slick-slide img:hover, .gift-card .slick-slide img:hover{opacity:1}
+
+/*---Checkbox----*/
+.checkbox input[type=checkbox]{opacity:0}
+.checkbox label{display:inline-block; cursor:pointer; position:relative; padding-left:25px!important; margin-right:15px; font-weight:400}
+.checkbox label:before{content:""; display:inline-block; width:16px; height:16px; margin-right:10px; position:absolute; left:0; bottom:3px; background-color:#f5f5f5; border:1px solid #bbb; top:1px}
+.checkbox input[type=checkbox]:checked + label:before{content:"\e013"; font-family:'Glyphicons Halflings'; font-size:10px; color:#fff; text-align:center; line-height:15px; background-color:#085eb8; border:1px solid #085eb8}
+
+/*---Radio----*/
+.radio input[type="radio"]:not(:checked),.radio input[type="radio"]:checked{position:absolute; left:-9999px;}
+.radio input[type="radio"]:not(:checked) + label,.radio input[type="radio"]:checked + label{position:relative;}
+.radio input[type="radio"]:not(:checked) + label:before,.radio input[type="radio"]:checked + label:before{content:''; position:absolute; left:0; top:1px; width:16px; height:16px; border:2px solid #aaa; background:#fff; border-radius:10px;}
+.radio input[type="radio"]+label{padding-left:20px; margin-right:10px}
+.radio input[type="radio"]:checked + label:after{content:''; background:#f5393d; top:5px; position:absolute; left:4px; transition:all .2s; width:8px; height:8px; border-radius:100%}
+.radio input[type="radio"]:not(:checked) + label:after{transform:scale(0);}
+.radio input[type="radio"]:checked + label:after{transform: scale(1);}
+
+/*----service-tab----*/
+#service-tabs .recharge-bills .tab-content{min-height:inherit}
+.service-tabs ul{margin-left:0}
+.service-tabs li{border-bottom:1px solid #ebebeb; float:left; width:100%; position:relative; padding:0}
+.service-tabs li:before{display:none}
+.service-tabs li.active{background: rgba(227,232,235,1);
+background: -moz-linear-gradient(top, rgba(227,232,235,1) 0%, rgba(242,242,252,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(227,232,235,1)), color-stop(100%, rgba(242,242,252,1)));
+background: -webkit-linear-gradient(top, rgba(227,232,235,1) 0%, rgba(242,242,252,1) 100%);
+background: -o-linear-gradient(top, rgba(227,232,235,1) 0%, rgba(242,242,252,1) 100%);
+background: -ms-linear-gradient(top, rgba(227,232,235,1) 0%, rgba(242,242,252,1) 100%);
+background: linear-gradient(to bottom, rgba(227,232,235,1) 0%, rgba(242,242,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e8eb', endColorstr='#f2f2fc', GradientType=0 );}
+.service-tabs li.active:after{width:0; height:0; /*background:url(../images/arrow.png) no-repeat 0 0;*/ content:'\e257'; font-family:'Glyphicons Halflings'; position:absolute; top:60%; right:10px; -webkit-transform:rotate(-180deg); -ms-transform:rotate(-180deg); transform:rotate(-180deg); line-height:18px; color:#666}
+.service-tabs li.active a{color:#454545}
+.service-tabs li a{float: right;
+    width: 100%;
+    color: #d32f2f;
+    font-size: 17px;
+    line-height: 44px;
+    padding: 4px;}
+.service-tabs li a.double{line-height:24px}
+.service-tabs li a:hover, .service-tabs li a:focus{background-color:transparent; text-decoration:none}
+.service-tabs li i{width:50px; height:50px; float:left; margin-right:10px}
+.service-tabs li i.rpb{background-position:7px 7px}
+.service-tabs li i.sm{background-position:7px -36px}
+.service-tabs li i.mob{background-position:7px -75px}
+.service-tabs li i.gc{background-position:7px -116px}
+.service-tabs li i.vvc{background-position:7px -153px}
+.service-tabs li i.mct{background-position:7px -189px}
+.service-tabs li i.am{background-position:7px -235px}
+.service-tabs li i.at{background-position:8px -283px}
+.service-tabs li i.rp{background-position:9px -326px}
+.service-tabs li i.at{background-position:8px -283px}
+.service-tabs li i.gt{background-position:7px -2014px}
+
+.service-tabs li i.adm{background-position:7px -366px}
+.service-tabs li i.wu{background-position:8px -406px}
+.service-tabs li i.rpm{background-position:9px -326px}
+.service-tabs li i.ltc{background-position:7px -446px}
+.service-tabs li i.rol{background-position:7px -487px}
+
+.service-tabs li i.act{background-position:7px -529px}
+.service-tabs li i.fnp,.service-tabs li.fashion-apparel i.food-m{background-position:7px -569px}
+.service-tabs li i.etn,.service-tabs li.entertainment i.food-m{background-position:7px -610px}
+.service-tabs li i.cab-b,.service-tabs li.cab-booking i.food-m{background-position:6px -648px}
+.service-tabs li i.hot-b,.service-tabs li.hotels i.food-m{background-position:8px -688px}
+.service-tabs li i.travel-b,.service-tabs li.travel i.food-m{background-position:8px -730px}
+.service-tabs li i.food-m,.service-tabs li.food i.food-m{background-position:8px -771px}
+.service-tabs li i.tandb-m,.service-tabs li.toys-baby-products i.food-m{background-position:6px -812px}
+.service-tabs li i.beauty_wellness-b,.service-tabs li[data-sub-cat-id="7"] i.food-m   { background-position: 8px -1501px;}
+.service-tabs li i.software-b,.service-tabs li.software i.food-m { background-position: 8px -1587px; }
+.service-tabs li.shopping .food-m {background-position: 8px -189px;}
+.service-tabs li i.top-que{background-position:7px -853px}
+.service-tabs li i.sequrity{background-position:7px -890px}
+.service-tabs li i.ref-fri{background-position:7px -928px}
+.service-tabs li i.refund{background-position:7px -967px}
+
+.service-tabs li i.tandc{background-position:7px -1008px}
+.service-tabs li i.pp{background-position:7px -1044px}
+.service-tabs li i.cg{background-position:7px -1082px}
+.service-tabs li i.cs{background-position:6px -1118px}
+
+.service-tabs li i.mp{background-position:6px -1160px}
+.service-tabs li i.lop{background-position:5px -1198px}
+.service-tabs li i.favt{background-position:5px -1240px}
+.service-tabs li i.trah{background-position:5px -1283px}
+.service-tabs li i.reff{background-position:5px -1323px}
+
+.service-tabs li i.cust-supp{background-position:5px -1363px}
+.service-tabs li i.contact-us{background-position:5px -1407px}
+.service-tabs li i.pwu{background-position:5px -1447px}
+.service-tabs li i.cosmetics{background-position:6px -1501px}
+
+.service-tabs li i.overview{background-position:7px -1552px}
+.service-tabs li i.howw{background-position:7px -1589px}
+.service-tabs li i.leadeship{background-position:9px -1632px}
+.service-tabs li i.mr{background-position:7px -1672px}
+.service-tabs li i.sp{background-position:7px -1708px}
+.service-tabs li i.vid-pho{background-position:6px -1741px}
+.service-tabs li i.career{background-position:6px -1777px}
+.service-tabs li i.lu{background-position:5px -1814px}
+.service-tabs li i.award-r{background-position:6px -1892px}
+
+.service-tabs li i.about-oxi{background-position:5px -1933px}
+.service-tabs li i.all-service{background-position:5px -1973px}
+.service-tabs li i.online-m{background-position:4px -2061px}
+.service-tabs li i.offline-m{background-position:4px -2101px}
+.service-tabs li i.cash-deposite{background-position:4px -2144px}
+.merchants .service-tabs-mob{margin-bottom:0}
+
+.table-responsive .summary{margin-bottom: 10px}
+.payback-card{width:300px; height:188px; background:url(../images/payback-card.png) no-repeat 0 0; color:#fff; position:relative; display:inline-block}
+.payback-card .card-points{/*background:url(../images/points.png) no-repeat 25% 12px;*/font-size:36px;font-weight:400;position:absolute;left:0;right:0;margin:0 auto;top:25%;text-align:center}
+.payback-card .card-points img{vertical-align:top; margin:12px 5px 0 0}
+.payback-card .card-rupees{font-size:11px;position:absolute;left:0;right:0;margin:0 auto;top:50%;text-align:center; text-transform:uppercase}
+.payback-card .card-number{font-size:17px;font-weight:400;position:absolute;left:0;right:0;margin:0 auto;bottom:25px;text-align:center}
+
+.address-bg-default{background:rgba(244,247,249,0.3); border:1px solid #dddddd; border-radius:10px; padding:10px 0 0; margin-bottom:20px}
+.address-bg-default hr{margin:0 0 10px; border-color:#dddddd}
+.address-bg-default .payback-points{width:52px; height:52px; display:inline-block; position:relative; float:left; margin-right:15px}
+.address-bg-default .payback-points i{background-position:-2px -1863px; display:inline-block; width:35px; height:35px; position:absolute; top:22%; left:0; right:0; margin:0 auto}
+.address-bg-default .payback-points{background-color:#fff}
+.address-bg-default .payback-points.rupee{font-size:30px; line-height:50px; text-align:center}
+.address-bg-default .pay-points, .address-bg-default .worth-amount{font-size:12px; padding:6px 0 0 0}
+.address-bg-default .pay-points p, .address-bg-default .worth-amount p{margin:0; font-size:18px; color:#0c6db2; font-weight:500}
+.address-bg-default .worth-amount p{color:#0c8000;}
+
+.quantity span{width:45%; margin:0 10px}
+.quantity span input{text-align:center; height:30px; color:#000}
+
+/*.plus-minus .form-group{width:82%; margin-right:2%; float:left}*/
+
+.address-bg-payback{background:url(../images/circle.png) no-repeat center 50% rgba(245,246,260,1); border:1px solid rgba(235,235,235,0.3); border-radius:5px; padding:0; margin-bottom:15px; margin-top:25px}
+.address-bg-payback .payback-points, .payback-points{width:52px; height:52px; display:inline-block; position:relative; float:left; margin-right:15px}
+.address-bg-payback .payback-points i, .payback-points i{background-position:-237px 0; display:inline-block; width:30px; height:28px; position:absolute; top:22%; left:0; right:0; margin:0 auto}
+.address-bg-payback .payback-points{background-color:#fff}
+.address-bg-payback .payback-points i.payback{background:url(../images/points-p.png) no-repeat 0 5px}
+.address-bg-payback .payback-points.rupee{font-size:30px; line-height:50px; text-align:center}
+.address-bg-payback .pay-points, .address-bg-payback .worth-amount{font-size:12px; padding:6px 0 0 0}
+.address-bg-payback .pay-points p, .address-bg-payback .worth-amount p{margin:0; font-size:18px; color:#0c6db2; font-weight:500}
+.address-bg-payback .worth-amount p{color:#0c8000;}
+
+.strong{font-size:18px; font-weight:500; color:#333333}
+
+/*----choose-payment-mode----*/
+.choose-payment-mode .nav-tabs{border:none; margin-left:0}
+.choose-payment-mode .nav-tabs>li{float:none; display:block; padding:0; margin:0}
+.choose-payment-mode .nav-tabs>li:before{display:none}
+.choose-payment-mode .nav-tabs>li>a, .choose-payment-mode .nav-tabs>li>a:hover{border:1px solid #e0e1e2; border-top:none; border-radius:0; background:#f5f7f8; display:block; font-size:16px; color:#666; padding:10px 12px;}
+.choose-payment-mode .nav-tabs>li.active>a, .choose-payment-mode .nav-tabs>li.active>a:focus, .choose-payment-mode .nav-tabs>li.active>a:hover{border:none; border-bottom:1px solid #f5393d; border-left:4px solid #085eb8; border-radius:0; background:#fff; font-weight:500; padding:10px 9px;}
+.choose-payment-mode .total-wallet-balance{padding:10px; margin-bottom:10px; border-radius:8px 8px 0 0; border:1px solid #efefef}
+.choose-payment-mode .total-wallet-balance span{display:block; color:#666; font-weight:400}
+.choose-payment-mode .total-wallet-balance .rupees{color:#0c8000; font-size:22px; font-weight:500}
+.choose-payment-mode .form-group label{font-weight:400}
+.choose-payment-mode .form-group img{margin-top:20px}
+.choose-payment-mode .form-group{margin-bottom:20px}
+.choose-payment-mode .payment-detail{float:left; width:100%; padding:12px 0; border-bottom:1px solid #ebebeb}
+.choose-payment-mode .payment-detail.total{font-size:20px; margin-bottom:40px}
+.choose-payment-mode .payment-detail.total .price{color:#0c8000}
+.cardtypeicon{height:30px;width:48px;display:inline-block;background:url(../images/acc-card.png) 48px 0 no-repeat}
+.VISA{background-position:0 0}
+.MAST{background-position:-48px 0}
+.DINR{background-position:-101px 0}
+.RUPAY{background-position:-202px 0}
+.MAES{background-position:-254px 0}
+.AMEX{background-position:-305px 0}
+.saved-card{
+background: rgba(247,248,250,1);
+background: -moz-linear-gradient(top, rgba(247,248,250,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,248,250,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(247,248,250,1) 0%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(247,248,250,1) 0%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(247,248,250,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(247,248,250,1) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f8fa', endColorstr='#ffffff', GradientType=0 ); position:relative; float:left; width:100%; border-radius:5px; padding:0 10px 10px; margin-bottom:20px}
+.saved-card .radio{margin-top:12px; margin-bottom:0}
+.saved-card a.remove-card{margin-top:8px; font-size:11px; width:20px; height:25px; background:url(../images/delete-black.png) no-repeat 0 0; display:inline-block; text-indent:-9999px}
+.saved-card hr{margin:10px 0}
+.saved-card .cardtypeicon{margin:5px 2px 0 0}
+.saved-card .cardnumber{padding:10px 0 0 0; color:#bbb}
+.saved-card input.form-control{width:22%; display:inline-block; float:right; font-size:12px; text-align:center}
+/*----Get App----*/
+.get-app{position:fixed; top:30%; right:0; border:1px solid #d5e4f3; background:#085eb8; -webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.32); -moz-box-shadow:0 1px 10px 0 rgba(0,0,0,0.32); box-shadow:0 1px 10px 0 rgba(0,0,0,0.32); border-radius:4px 0 0 4px; color:#fff; font-size:15px; cursor:pointer; z-index:1024; height:47px}
+.get-app span:nth-child(1){padding:12px; background:#f5393d}
+.get-app span{padding:8px 3px;}
+.get-app i{font-size:18px; margin-top:5px}
+.get-app .get-app-inner{padding:8px 0 7px; width:0; position:relative; overflow:hidden;transition: all .5s}
+.get-app .get-app-inner input{width:0%; font-size:11px; color:#999999; padding:3px 10px; height:30px; transition: all .5s}
+.get-app:hover .get-app-inner input {width: 170px;}
+.get-app:hover .get-app-inner{width:180px; padding:8px 9px 7px 3px}
+.get-app:hover i{transform:rotate(180deg)}
+
+/*----Get app Popup----*/
+#getapp{text-align:center}
+#getapp .modal-content {display:inline-block;}
+#getapp h2{font-size:33px; color:#094f91; font-weight:400; margin:10px 0 0 0}
+#getapp h3{color:#1c1e1f; font-size:20px; font-weight:400;margin: 30px 0}
+#getapp .connect{padding:0}
+#getapp .connect a{width:44px; height:44px; margin:0 8px 10px; display:inline-block; background:none; position:relative}
+#getapp .connect a i{width:44px; height:44px;position:absolute; left:0; opacity:10; border-radius:100%; border:1px solid rgba(0,0,0,0.1)}
+#getapp .connect .connect-icon.google-mobile i{background-position:-319px -46px}
+#getapp .connect .connect-icon.apple-mobile i{background-position:-276px -46px}
+#getapp .connect .connect-icon.windows-mobile i{background-position:-274px -89px}
+
+/*---Menu----*/
+#menu{position:fixed; top:0; left:0; z-index:1040}
+#menu .slide-menu{width:260px; position:absolute; top:98%; left:-300px; clear:both; background:#5b5b5b; -webkit-box-shadow:1px 1px 15px 1px rgba(0,0,0,0.5); -moz-box-shadow:1px 1px 15px 1px rgba(0,0,0,0.5); box-shadow:1px 1px 15px 1px rgba(0,0,0,0.5); overflow:auto; overflow-x:hidden}
+#menu .slide-menu hr{border-top:1px solid #d32f2f; margin:15px 10px}
+#menu ul{padding:0; margin-left:0}
+#menu ul li{padding:0;}
+#menu ul li:before{display:none}
+#menu ul li:hover a, #menu ul li a.active{background:#d32f2f; color:#fff;}
+#menu ul li a{color:#bbbbbb; font-size:14px; text-decoration:none; display:block; padding:11px 10px; position:relative}
+#menu ul li a i{width:22px; height:22px; display:inline-block; float:left; margin-right:10px}
+#menu ul li a span.new{background:#d32f2f; text-transform:uppercase; color:#fff; border-radius:3px; padding:1px 2px; font-size:11px; position:relative; display:inline-block; top:-7px; margin-left:8px}
+#menu .white-text{color:#fff; font-weight:300}
+#menu .connect{float:left; width:100%; padding:10px}
+#menu .connect a {border:1px solid #d32f2f; border-radius:100%; width:33px; height:33px; display:inline-block; text-align:center; padding-top:3px; margin:0 3px}
+#menu .connect a i{opacity:0.6}
+#menu .connect a:hover{border-color:#555}
+#menu .connect a:hover i{opacity:10}
+#menu .connect .connect-icon.facebook i{background-position:-279px -3px}
+#menu .connect .connect-icon.twitter i{background-position:-312px -2px}
+#menu .connect .connect-icon.linked-in i{background-position:-343px -3px}
+#menu .connect .connect-icon.instagram i{background-position:-376px -3px}
+#menu .connect a i{width:24px; height:24px; display:inline-block; margin:0 auto}
+
+#menu ul li a i.list1{background-position:-9px -250px}
+#menu ul li a:hover i.list1, #menu ul li a.active i.list1{background-position:-9px -279px}
+#menu ul li a i.list2{background-position:-39px -250px}
+#menu ul li a:hover i.list2, #menu ul li a.active i.list2{background-position:-39px -281px}
+#menu ul li a i.list3{background-position:-68px -252px}
+#menu ul li a:hover i.list3, #menu ul li a.active i.list3{background-position:-68px -283px}
+#menu ul li a i.list4{background-position:-100px -250px}
+#menu ul li a:hover i.list4, #menu ul li a.active i.list4{background-position:-100px -281px}
+#menu ul li a i.list5{background-position:-128px -247px}
+#menu ul li a:hover i.list5, #menu ul li a.active i.list5{background-position:-128px -278px}
+#menu ul li a i.list6{background-position:-159px -248px}
+#menu ul li a:hover i.list6, #menu ul li a.active i.list6{background-position:-159px -279px}
+#menu ul li a i.list7{background-position:-190px -248px}
+#menu ul li a:hover i.list7, #menu ul li a.active i.list7{background-position:-190px -279px}
+#menu ul li a i.list8{background-position:-220px -248px}
+#menu ul li a:hover i.list8, #menu ul li a.active i.list8{background-position:-220px -279px}
+#menu ul li a i.list9{background-position:-250px -251px}
+#menu ul li a:hover i.list9, #menu ul li a.active i.list9{background-position:-250px -282px}
+#menu ul li a i.list10{background-position:-280px -248px}
+#menu ul li a:hover i.list10, #menu ul li a.active i.list10{background-position:-280px -279px}
+#menu ul li a i.list11{background-position:-310px -253px}
+#menu ul li a:hover i.list11, #menu ul li a.active i.list11{background-position:-310px -284px}
+#menu ul li a i.list12{background-position:-340px -249px}
+#menu ul li a:hover i.list12, #menu ul li a.active i.list12{background-position:-340px -280px}
+
+#menu ul li a i.list13{background-position:-206px -312px}
+#menu ul li a:hover i.list13, #menu ul li a.active i.list13{background-position:-206px -341px}
+#menu ul li a i.list14{background-position:-146px -312px}
+#menu ul li a:hover i.list14, #menu ul li a.active i.list14{background-position:-146px -341px}
+#menu ul li a i.list15{background-position:-176px -312px}
+#menu ul li a:hover i.list15, #menu ul li a.active i.list15{background-position:-176px -341px}
+#menu ul li a i.list16{background-position:-236px -312px}
+#menu ul li a:hover i.list16, #menu ul li a.active i.list16{background-position:-236px -341px}
+#menu ul li a i.list17{background-position:-296px -312px}
+#menu ul li a:hover i.list17, #menu ul li a.active i.list17{background-position:-296px -341px}
+#menu ul li a i.list18{background-position:-266px -312px}
+#menu ul li a:hover i.list18, #menu ul li a.active i.list18{background-position:-266px -341px}
+
+#menu ul li a i.list19{background-position:-460px -436px}
+#menu ul li a:hover i.list19, #menu ul li a.active i.list19{background-position:-460px -462px}
+#menu ul li a i.list20{background-position:-431px -436px}
+#menu ul li a:hover i.list20, #menu ul li a.active i.list20{background-position:-431px -462px}
+#menu ul li a i.list22{background-position:-266px -312px}
+#menu ul li a:hover i.list22, #menu ul li a.active i.list22{background-position:-266px -341px}
+#menu ul li a i.list23{background-position:-511px -317px}
+#menu ul li a:hover i.list23,#menu ul li a.active i.list23{background-position:-511px -348px}
+#menu ul li a i.list24{background-position:-542px -317px}
+#menu ul li a:hover i.list24,#menu ul li a.active i.list24{background-position:-542px -348px}
+#menu ul li a i.list25{background-position:-570px -317px}
+#menu ul li a:hover i.list25,#menu ul li a.active i.list25{background-position:-570px -348px}
+#menu ul li a i.list21{background:url(../images/chakra-mobile.png) no-repeat 0 0; width:24px; height:24px;}
+
+.banner{border:1px solid #e1e1e1; border-radius:3px; overflow:hidden; width:100%; height:100px}
+
+/*----Login Popup----*/
+button.close, a.close{ top:-10px; position:absolute; right:-10px;background:url(../images/cross-icon.png);border-radius:100%; width:20px; height:20px;text-indent:-9999px;display:inline-block;z-index:10; opacity: 10}
+button.close:hover, a.close:hover{opacity:10; color:#fff}
+
+.popup-loader{background:rgba(0,0,0,0.3); position:fixed; left: 0; right: 0; width:100%; height:100%; text-align: center; z-index:1080; padding:0; top:0;}
+.loader{position:absolute; left: 0; right: 0; width:100%; height: 100%; text-align: center; z-index:9; padding:0; top:0;}
+.loader img, .popup-loader img{position:absolute; left:0; right:0; top:0; bottom:0; margin:auto}
+.alert-danger{padding:0; margin-bottom:0; color:#f13a3e; background:transparent; border-color:transparent;}
+.alert-success{padding: 0; background: none; border: none; margin: 0}
+#login .btn, #signup .btn, #forgot-password .btn, #otpscreen .btn, #verifyotpscreen .btn, #change-password .btn, #one-time-password .btn{height:46px}
+
+#Login .modal-content{background:#f4f7f9; border-radius:10px; position:relative; float:left; width:100%}
+#Login .modal-content .sachin-image{position:absolute; right:-44px; bottom:-1px}
+#Login .modal-body{padding:1% 0 0 0; background:#f8f8f8 url(../images/login-bg.jpg) no-repeat 0 top; border-radius:10px; float:left; width:100%}
+#Login .btn-grey, #signup .btn-grey{font-size:18px; text-transform:capitalize}
+#Login .modal-content .nav-tabs{margin-bottom:6%; border-bottom:1px solid #d3d3d3; margin-left:0}
+#Login .modal-content .nav-tabs > li{margin-right:8px; padding:0}
+#Login .modal-content .nav-tabs > li:before{display:none}
+#Login .modal-content .nav-tabs > li > a{font-size:18px; color:#666666; border:none; background:transparent; padding:10px 20px}
+#Login .modal-content .nav-tabs > li.active > a:before{right:0}
+.login-sign-up-popup .modal-content .modal-body{min-height:454px}
+#otpscreen .reset, #forgot-password .reset{color:#0063ad; font-size:18px; font-weight:400}
+#otpscreen .reset span, #forgot-password .reset span{font-size:18px; color:#666666; display:block; margin-top:3px}
+#otpscreen .heading-inner h1, #forgot-password .heading-inner h1, #one-time-password .heading-inner h1, #change-password .heading-inner h1{font-size:14px; color:#454545; font-weight:400}
+
+.or{border-top:1px solid #ccc; margin:40px 0; position:relative; text-align:center}
+.or span{border:1px solid #ccc; border-radius:100%; padding:4px 0 0 0; background:#014b92; margin:0 auto; color:#fff; font-size:14px; position:absolute; left:0; right:0; top:-17px; width:32px; height:32px; font-weight:400; line-height: 21px}
+
+#Login .modal-content .tab-content .form-group .input-group{width:100%}
+#Login .input-group-addon{border-left:3px solid #0063ad; padding:0; background:#fff; border-radius:0; color:#999999; font-size:16px; font-weight:normal; width:40px; height:46px}
+#Login .modal-content .tab-content .form-group{width:100%; margin-bottom:20px}
+#Login .form-control{border-radius:0; padding:12px 0; border-color:#dddddd; height:46px; padding-left:10px}
+#Login .checkbox{margin-bottom:20px}
+#Login .form-group .input-group-addon i.mobile{width:18px; height:24px; background-position:-363px -99px; display:inline-block; margin-top:3px}
+#Login .form-group .input-group-addon i.password{width:18px; height:24px; background-position:-387px -99px; display:inline-block}
+#Login .form-group .input-group-addon i.calender{width:26px; height:28px; display:inline-block; background-position:-253px -165px}
+
+#forgot-password .heading-inner h1, #one-time-password .heading-inner h1, #change-password .heading-inner h1, #verifyotpscreen .heading-inner h1{font-size:18px; color:#666666; font-weight:400}
+#otpscreen .heading-inner hr, #forgot-password .heading-inner hr, #one-time-password .heading-inner hr, #change-password .heading-inner hr, #screen3 .heading-inner hr, #verifyotpscreen .heading-inner hr{border-color:#d3d3d3}
+#change-password .form-group .input-group-addon i.password{width:18px; height:24px; background-position:-387px -99px; display:inline-block; margin-left:4px}
+
+#Login .form-group .input-group-btn.browse-plan .btn.btn-default{text-transform:capitalize; background:#fff; border-color:#ddd; height:46px; padding:12px 9px; border-left:0; font-size:12px;border-radius:0}
+#Login .form-group .input-group-btn.browse-plan .btn.btn-default:focus{box-shadow:none}
+/*----Browse plans----*/
+.browseplan{height:330px}
+.browseplan .all-plans{height:220px; overflow:auto; overflow-x:hidden}
+.card__back .browseplan .all-plans {overflow-y:auto !important;}
+/*#browseplan span a.close-browse{color:#666; font-size:17px; font-weight:400}*/
+#browseplan span a.close-browse{background:url(../images/cross-icon.png);border-radius:100%; width:20px; height:20px;text-indent:-9999px;display:inline-block;}
+#browseplan .well{background:#fff; padding:15px; box-shadow:none}
+#browseplan .well p{font-weight:400}
+#browseplan .well .validity{background:#f4f7f9; border:1px solid #e1e1e1; padding:5px 10px; border-radius:5px}
+#browseplan .well .plan-rupee{border:1px solid #085eb8; border-radius:3px; font-size:18px; font-weight:400; padding:3px 10px}
+#browseplan .well a.active .plan-rupee{background:#e4f1fa; color:#2379d2; border-color:#83b0de}
+
+/*--Error Classes---*/
+#Login .form-group.has-error .input-group-addon{border:1px solid #f13a3e; border-left:3px solid #f13a3e; border-right:0px solid}
+#Login .form-group.has-error .form-control{border:1px solid #f13a3e}
+.checkbox.has-error label:before{background:#ff3739}
+
+#Login .form-group.has-success .input-group-addon{border:1px solid #0c8000; border-left:3px solid #0c8000; border-right:0px solid}
+#Login .form-group.has-success .form-control{border:1px solid #0c8000}
+.checkbox.has-success label:before{background:#0c8000}
+
+.facebook-button, .google-button{background:#3b5998; display:block; color:#fff; float:left; width:100%}
+.google-button{background:#de4c34}
+.google-button:hover, .facebook-button:hover{color:#fff; text-decoration:none; cursor:pointer}
+.facebook-button i, .google-button i{width:18px; height:20px; display:inline-block;}
+.facebook-button i{background-position:-370px -248px;}
+.google-button i{background-position:-400px -248px;}
+.facebook-button span{float:left; background:#354f88; padding:9px 10px 6px}
+.facebook-button span:nth-child(2), .google-button span:nth-child(2){background:transparent; padding:9px 10px}
+.google-button span{float:left; background:#ce3e26; padding:9px 10px 6px}
+
+/*----Merchants----*/
+.merchant-container .heading h4{padding-top:8px}
+.merchant-container .nav-tabs>li>a{padding:0 0 10px 0; font-size:18px; margin-right:40px; color:#666}
+.merchant-container .nav-tabs>li.active>a,.merchant-container .nav-tabs>li.active>a:focus,.merchant-container .nav-tabs>li.active>a:hover, .merchant-container .nav-tabs>li>a:hover{border:1px solid transparent; background:#fff}
+.merchant-container .nav-tabs>li.active>a:before{right:0}
+.merchant-container .form-control{border-color:#e9e9e9; border-radius:10px}
+.merchant-container .merchant{margin-bottom:20px}
+.merchant-container .input-group-btn .btn.btn-default{background:transparent; border-color:#e9e9e9; color:#bfc5ca; border-radius:0 10px 10px 0}
+.merchants .merchant .shade{-webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.05); -moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.05); box-shadow:0px 0px 5px 0px rgba(0,0,0,0.05); border:1px solid #ededed; border-radius:5px; text-align:center; overflow:hidden; padding:5px}
+.merchants .merchant .shade img{display:inline-block}
+.merchants .merchant .shade:hover{border-color:#aaa}
+.merchants .merchant a{display:block}
+.merchants .merchant a h4{color:#666;text-align: center;margin-bottom: 3px; font-size:14px}
+.merchants .merchant a:hover,.merchants .merchant a:active,.merchants .merchant a:focus{text-decoration: none;}
+.merchants .merchant a p{text-align: center;}
+.merchants .nav-bar{box-shadow:none; background:none; font-size:15px; border:none; margin-left:0}
+.merchants .nav-bar li{padding:0}
+.merchants .nav-bar li:before{display:none}
+.merchants-banner{-webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.05); -moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.05); box-shadow:0px 0px 5px 0px rgba(0,0,0,0.05); border:1px solid #ededed; border-radius:5px; text-align:center; width:100%; height:100%; position:relative}
+
+/*----Share url----*/
+.share-url{position:absolute; right:15px; top:15px}
+.heart{width:22px; height:20px; display:inline-block; background:url(../images/heart.png) no-repeat 0 0; margin-right:10px}
+.heart:hover, .heart:focus, .heart.active{background:url(../images/heart-active.png) no-repeat 0 0}
+.share{width:22px; height:20px; display:inline-block; background:url(../images/share.png) no-repeat 0 0; margin-right:10px}
+
+.share-url .collapse, .share-url .collapsing{width:40px; position:absolute; right:0; top:30px; z-index:99999}
+.share-url .share-part{margin:0; background:#fff; text-align:center; width:40px; padding:5px 0 0 0; border-radius:5px; -webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.7); -moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.7); box-shadow:0px 0px 5px 0px rgba(0,0,0,0.7); position:relative}
+.share-url .share-part:before{width: 0; height: 0; border-left: 5px solid transparent;border-right: 5px solid transparent;border-bottom: 5px solid #fff; content:''; position:absolute; top:-5px; right:0; left:0; margin:0 auto}
+.share-url .share-part a{ width:28px; height:26px; background:url(../images/share-image.png) no-repeat 0 0; display:inline-block; margin:3px 0}
+.share-url .share-part a.facebook{ background-position:0 0}
+.share-url .share-part a.google-plus{background-position:0 -34px}
+.share-url .share-part a.twitter{background-position:0 -68px}
+
+.merchant-name .merchant-logo{width:212px; height:109px; background:url(../images/deals.png) no-repeat 0 0; position:relative; text-align:center; margin-top:-43px; padding-top:10px}
+.merchant-name .merchant-logo img{position:absolute; margin:0 auto; top:22%; left:0; right:0; width:75%}
+.merchant-name .name{font-size:18px; color:#666; display:inline-block; padding:18px 0 0 10px}
+.merchant-name .promo-code-new{background:url(../images/scissor.png) no-repeat right top; padding:20px 16px 10px 0; float:left; margin-top:10px}
+.merchant-name .promo-code-new code{border:1px dashed #e0e0e0; color:#085eb8; font-size:14px; padding:5px; border-radius:0; font-weight:bold; background:#f4f7f9}
+
+.merchant-name .offers{float:right}
+.merchant-name .offers a{margin:17px 0 0 15px; display:inline-block; float:left}
+.merchant-name .offers a.btn{float:right; font-size:14px}
+
+/*----refer-a friend----*/
+.refer-a-friend .nav-bar{box-shadow:none; font-size:15px; border:none; border-bottom:1px solid #d9d9d9}
+.refer-a-friend li a, .refer-a-friend li.active a, .refer-a-friend li.active a:focus,  .refer-a-friend li.active a:hover{border:none; padding:0 0 10px; margin-right:20px}
+.refer-a-friend li.active a:before{right:0}
+.refer-a-friend li a:hover{background:#fff;color:#666}
+.refer-a-friend li a{font-size:18px; color:#666; font-weight:400}
+.refer-a-friend .form-group{margin-bottom:20px}
+.refer-a-friend .form-group .input-group{margin-bottom:10px}
+.refer-a-friend .review.email .input-group-addon i{margin:0}
+
+/*----Faq----*/
+.positionfixed{position:fixed;max-width:293px;}
+.positionabsolute{position:absolute;bottom:0;}
+.positionrelative{position:relative}
+.faq .panel-group{margin:0}
+.faq .panel-group .panel{border:none; box-shadow:none}
+.faq .panel-default>.panel-heading{background:#fff; padding:20px 0 0}
+.faq .panel-default>.panel-heading+.panel-collapse>.panel-body{border:none; padding:15px 0 0}
+.faq .panel-title a{color:#3b6b9c; line-height:20px;font-size:15px; font-weight:400; display:block; position:relative;padding-right:15px}
+.faq .panel-title a.collapsed:before{position:absolute; content:'\e259'; font-family:'Glyphicons Halflings'; font-size:14px; color:#85a6c8; right:0; top:0; -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); transform: rotate(-90deg); -webkit-transition:300ms ease all; -moz-transition:300ms ease all; -o-transition:300ms ease all; transition:300ms ease all;}
+.faq .panel-title a:before, .faq .panel-title a.collapse:before{position:absolute; content:'\e259'; font-family:'Glyphicons Halflings'; font-size:14px; color:#85a6c8; right:0; top:0; -webkit-transition:300ms ease all; -moz-transition:300ms ease all; -o-transition:300ms ease all; transition:300ms ease all;}
+
+/*----Social icon----*/
+.social-icons i.icon{width:46px; height:46px; display:inline-block; text-indent:-9999px; margin-right:15px; opacity:0.6; cursor:pointer;}
+.social-icons a:hover i.icon, .social-icons a.active i.icon{opacity:10}
+.social-icons i.icon.facebook-social{background-position:-3px -542px}
+.social-icons i.icon.google-social{background-position:-99px -542px}
+.social-icons i.icon.twitter-social{background-position:-51px -542px}
+.social-icons i.icon.favourie-icon{background-position:-149px -542px}
+.social-icons i.icon.email-icon{background-position:-199px -542px}
+.social-icons i.icon.chat-icon{background-position:-249px -542px}
+.social-icons i.icon.contact-icon{background-position:-299px -542px}
+.social-icons .chat-icon1{width:46px; height:46px; display:inline-block; opacity:0.6; cursor:pointer; background:url(../images/sprite.png) -347px -542px}
+.social-icons .camera-icon.btn-file {position: relative; overflow: hidden; width:46px; height:46px; display:inline-block; opacity:0.6; cursor:pointer; background:url(../images/sprite.png) -394px -542px;}
+.social-icons .camera-icon input[type=file] {position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; background: red; cursor: inherit; display: block;}
+.social-icons .video-icon.btn-file {position: relative; overflow: hidden; width:46px; height:46px; display:inline-block; opacity:0.6; cursor:pointer; background:url(../images/sprite.png) -440px -542px}
+.social-icons .video-icon input[type=file] {position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; background: red; cursor: inherit; display: block;}
+.social-icons .voice-icon.btn-file {position: relative; overflow: hidden; width:46px; height:46px; display:inline-block; opacity:0.6; cursor:pointer; background:url(../images/sprite.png) -426px -486px}
+.social-icons .voice-icon input[type=file] {position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; background: red; cursor: inherit; display: block;}
+.social-icons .chat-icon1:hover, .social-icons .chat-icon1.active, .social-icons .camera-icon.btn-file:hover, .social-icons .camera-icon.btn-file.active, .social-icons .video-icon.btn-file:hover, .social-icons .video-icon.btn-file.active, .social-icons .voice-icon.btn-file:hover, .social-icons .voice-icon.btn-file.active{opacity:10}
+.social-icons .form-group{margin-bottom:0}
+
+/*----Social Listing----*/
+.facebook-listing.twitter-listing h3{background-color:#1da1f2}
+.facebook-listing.twitter-listing h3 i{background-position:-469px -223px;}
+.facebook-listing{border:1px solid #e1e1e1; border-radius:4px; overflow:hidden; padding-bottom:10px}
+.facebook-listing h3{margin:0 0 15px; background-color:#3c5a98; color:#fff; font-size:16px; font-weight:400; line-height:28px; padding:6px}
+.facebook-listing h3 i{width:25px; height:25px; display:inline-block; background-position:-367px -246px; float:left; margin-right:5px}
+.facebook-listing small{font-size:13px; margin:0 0 10px 10px; display:block;}
+.facebook-listing ul{padding:0; margin:0; height:300px; overflow:auto}
+.facebook-listing ul li{margin:0; padding:8px 10px; line-height:40px}
+.facebook-listing ul li:before{display:none}
+.facebook-listing ul li span{width:40px; height:40px; float:left; overflow:hidden; border-radius:50px; margin-right:10px; border:1px solid #e0e0e0}
+.facebook-listing ul li:hover, .facebook-listing ul li.active{background:#f3f7fa; cursor:pointer}
+.facebook-icon{background-position:-470px -310px;}
+.twitter-icon{background-position:-470px -338px;}
+.input-group-addon.social{background:#fff}
+
+/*----Ul Classes----*/
+.number{margin-left:20px}
+.number, .number li{list-style-type:decimal}
+ul, .circle{margin-left:20px}
+ul li, .circle, .circle li{list-style-type:none; position:relative}
+ul li:before, .circle li:before{content:''; position:absolute; left:-15px; top:11px; border:1px solid #616161; width:6px; height:6px; border-radius:100%}
+ul.pagination li:before{display: none}
+ul li, .circle li, .number li{padding:5px 0}
+
+/*----Download-App-----*/
+.download-app-container .shadow{padding-top:20px;}
+.download-app-container img.chakra{margin:0 10px 0 5px}
+.download-app-container h1{color:#454545; font-weight:400; font-size:30px; margin-left:10%; margin-bottom:5px}
+.download-app-container .filledStar{color:#fec528; vertical-align: middle;}
+.download-app-container .emptyStar{color:#cdcdcd;  vertical-align: middle;}
+
+.download-app-container p{display:inline-block; vertical-align:middle; font-size:16px; margin-bottom:0; color:#454545}
+.download-app-container p.text{font-size:14px; margin-left:5px}
+.download-app-container hr{margin-left: 5px}
+.download-app-container h2{color:#222222; font-size:24px; font-weight:500; margin-left:5px}
+.download-app-container .use-oxigen{padding:20px 0 30px 0; text-align: center; margin-top:86px; background:url(../images/blue-bg.jpg) repeat-x 0 top}
+.download-app a{width:186px; height:56px; display:inline-block; background:url(../images/app-google.png) no-repeat 0 bottom; background-size:cover; text-indent:-9999px; opacity:0.7}
+.download-app a:hover, .download-app a.apple-app:hover, .download-app a.windows:hover{opacity:10}
+.download-app a.btn.btn-danger{height:auto; text-indent:inherit; background:#f5393d; display:block; border-radius:3px}
+.download-app a.apple-app{background:url(../images/app-apple.png) no-repeat 0 bottom; background-size:cover}
+.download-app a.windows{background:url(../images/app-window.png) no-repeat 0 bottom; background-size:cover}
+.download-app-container .downloadMobileApp{position:absolute; top:20px; right:0; z-index:2; background:url(../images/mobile.png) no-repeat 0 0; width:457px; height:587px;}
+.download-app-container .downloadMobileApp .download-app-slider{width:251px; height:394px; top:101px; right:0; left:0; bottom:0; margin:0 auto}
+.download-app-container .downloadMobileApp-mobile{width:auto; height:auto; position:relative; z-index:2}
+.download-app-container .downloadMobileApp img{display: inline-block;}
+.download-app-container .icon-bg{background: #fff;}
+.download-app-container .use-oxigen span i{width:44px; height:50px; top:23%;}
+.download-app-container .use-oxigen i.install-count{background-position:-225px -375px;}
+.download-app-container .use-oxigen i.self-secure {background-position:-164px -88px; top:27%}
+.download-app-container .use-oxigen i.consumer-care {background-position:-273px -374px}
+
+/*----OTP Modal----*/
+#OTPModal{padding-right:0!important}
+/*#OTPModal .modal-content{background:#f4f7f9}*/
+#OTPModal .modal-dialog, #p2a_otp_conf .modal-dialog,#p2p_otp_conf .modal-dialog{max-width:380px}
+#OTPModal .modal-dialog .input-group,#p2p_otp_conf .modal-dialog .input-group{margin-bottom:10px}
+#OTPModal h4{font-size:20px; color: #666}
+/*----btn resend----*/
+.btn-resend{background:#a5a8ac; border:1px solid #a5a8ac; padding:5px 12px; color:#fff; font-size:18px}
+.btn-resend:hover{background:#90949a; border:1px solid #a5a8ac;  padding:5px 12px; color:#fff}
+
+/*----merchant-relocator----*/
+
+/*.merchant-relocator ul{margin:0}
+.merchant-relocator ul li{float:left; width:20%; padding:0 1%; margin-bottom:20px}
+.merchant-relocator ul li:before{display:none}
+.merchant-relocator ul li:first-child{padding-left:0}
+.merchant-relocator ul li:last-child{padding-right:0}
+.merchant-relocator .filter-now button{width:25%;}
+.merchant-relocator h3{margin:10px 0 20px;}
+.merchant-relocator h4{margin:0 0 10px;font-weight:400;font-size:16px;}
+.merchant-relocator .retail-location{border:1px solid #cdcdcd;border-radius: 3px;}
+.merchant-relocator .retail-location:hover{background:#f2f4f9; cursor: pointer}
+.merchant-relocator .retail-location h3{margin: 0 0 5px;font-size: 16px;font-weight: 400}
+.merchant-relocator .retail-location article span{color:#085eb8}*/
+.retail-location{border:1px solid #efefef; background:#fbfcfd; border-radius:3px; float:left; width:100%; padding:10px 0; margin-bottom:20px}
+.retail-location:last-child{margin-bottom:0}
+.retail-location h3{margin:0 0 5px; font-size:16px; font-weight:500}
+.retail-location .image{width:60px; height:60px; border-radius:100%; overflow:hidden; margin:0 auto; border: 1px solid #e0e0e0;}
+.retail-location i{width:16px; height:18px; float:left; margin-right:5px}
+.retail-location i.phone{background-position:-509px -5px}
+.retail-location i.time{background-position:-564px -74px}
+.retail-location i.share-icon{background-position:-564px -94px}
+.retail-location i.distance-icon{background-position:-562px -159px}
+.retail-location i.map{background-position:-564px -114px}
+.retail-location i.shop{background-position:-562px -135px; width:19px; height:18px; float:none; display:inline-block}
+.retail-location .address .row div{padding:5px 15px}
+
+/*----Partner With Us----*/
+.partner-with-us h4{font-size:16px; color:#666; font-weight:500;}
+.partner-with-us span i.selling-product{background-position:-329px -373px}
+.partner-with-us span i.offers-checkout{background-position:-379px -374px}
+.partner-with-us span i.partner-opper{background-position:-412px -322px}
+
+/*---Sorting-table */
+.sorting-table th, .sorting-table th a{font-size:14px!important; font-weight:500!important; background:#ebeced!important; color:#666!important}
+.sorting-table.table-bordered>thead>tr>th{border-bottom-width:1px}
+.sorting-table a{font-size:12px; font-weight:400}
+.sorting-table tr.warning a{color:#085eb8}
+.sorting-table tr.danger a{color:#ea474b}
+.sorting-table tr:nth-child(even){background:#fbfbfb}
+.disable-anchor{ pointer-events: none;cursor: default; }
+
+/*---Table Updated---*/
+#cancel-confirm .modal-dialog{max-width:430px; width:auto}
+#customer-support .modal-dialog{max-width:430px; width:auto}
+#updateMsg.success,#mailMsg.success{color:green;}
+#updateMsg.error,#mailMsg.error{color:red;}
+.table-transaction.table>thead>tr>th, .table-transaction.table>tbody>tr>td{padding:0; border:0}
+.table-head{background:#f4f7f9; border:1px solid #f2f4f5; border-radius:5px; padding:8px 15px; font-weight:500}
+/*--Filter dropdown--*/
+.table-head .dropdown{margin:-8px 0 -15px -15px}
+.table-head .dropdown .btn{padding:8px 15px; border:0; text-transform:capitalize; color:#555; font-weight:500}
+.table-head .dropdown .btn.btn-default:hover, .table-head .dropdown .btn.btn-default:focus, .table-head .dropdown .btn.btn-default:active, .table-head .dropdown .btn.btn-default:visited{background:#e7ebee; box-shadow:none; outline:none}
+.table-head .dropdown-menu{margin:10px 0 0 0}
+.table-head .dropdown-menu:before {width:0; height:0; border-left:8px solid transparent; border-right:8px solid transparent; border-bottom:8px solid #ddd; content:''; position:absolute; left:28%; top:-8px;}
+.table-head .dropdown ul.dropdown-menu{min-width:172px; padding:0}
+.table-head .dropdown ul.dropdown-menu li{padding:0; margin:0 3px; border-top:1px solid #ededee}
+.table-head .dropdown ul.dropdown-menu li:first-child{border:none}
+.table-head .dropdown ul.dropdown-menu li:before{display:none}
+.table-head .dropdown ul.dropdown-menu li a{padding:5px 0; font-size:12px; font-weight:400; line-height:19px}
+.table-head .dropdown ul.dropdown-menu li a:hover{color:#085eb8; background:#fff}
+.table-head .dropdown ul.dropdown-menu li a i{width:20px; height:18px; float:left; margin:0 10px;}
+.table-head .dropdown ul.dropdown-menu li a i.mobile{background-position:-510px -5px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.mobile{background-position:-534px -5px}
+.table-head .dropdown ul.dropdown-menu li a i.landline{background-position:-511px -31px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.landline{background-position:-535px -31px}
+.table-head .dropdown ul.dropdown-menu li a i.dth{background-position:-510px -58px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.dth{background-position:-534px -58px}
+.table-head .dropdown ul.dropdown-menu li a i.datacard{background-position:-511px -83px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.datacard{background-position:-535px -83px}
+.table-head .dropdown ul.dropdown-menu li a i.gas{background-position:-511px -110px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.gas{background-position:-535px -110px}
+.table-head .dropdown ul.dropdown-menu li a i.electricity{background-position:-511px -137px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.electricity{background-position:-535px -137px}
+.table-head .dropdown ul.dropdown-menu li a i.insurance{background-position:-511px -163px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.insurance{background-position:-535px -163px}
+.table-head .dropdown ul.dropdown-menu li a i.broadband{background-position:-511px -188px}
+.table-head .dropdown ul.dropdown-menu li a:hover i.broadband{background-position:-535px -188px}
+/*---Filter Popup----*/
+.filter{width:18px; height:18px; display:inline-block; background:url(../images/sprite.png) no-repeat -562px -4px; margin-right:0!important; cursor:pointer}
+.filter-dropdown{position:relative}
+.filter-dropdown .filter-dropdown-popup{position:absolute; top:30px; right:-12px; z-index:1000;  float:left; min-width:250px; padding:5px 0; margin:2px 0 0; font-size:14px; text-align:left; list-style:none; background-color:#fff; -webkit-background-clip:padding-box; background-clip:padding-box; border:1px solid #ccc; border:1px solid rgba(0,0,0,.15); border-radius:4px; -webkit-box-shadow:0 6px 12px rgba(0,0,0,.175); box-shadow:0 6px 12px rgba(0,0,0,.175);}
+.filter-dropdown .filter-dropdown-popup:before {width:0; height:0; border-left:8px solid transparent; border-right:8px solid transparent; border-bottom:8px solid #ddd; content:''; position:absolute; right:5%; top:-8px;}
+.filter-dropdown .filter-dropdown-popup .form-group{margin-bottom:15px}
+/*---Table Body----*/
+.table-body{background:#fbfcfd; border:1px solid #efefef; border-radius:5px; padding:8px 15px; margin:8px 0}
+.table-body:hover, .table-body:focus{background:#fff; border:1px solid #aac1da}
+.table-body strong a{font-weight:400}
+.table-body .text-success, .table-body .text-warning, .table-body .text-danger{font-weight:500;text-transform:uppercase;}
+.table-body .text-success{color:#0c8000;}
+.table-body .text-warning,.text-success .pending{color:#ff9c00;}
+.table-body .text-danger{color:#f5393d;}
+/*----btn default----*/
+.table-body .btn-default{background:#fff; border:1px solid #d8d8d9; padding:1px 12px; margin-top:6px; color:#6c6e70; text-transform:capitalize}
+.table-body .btn-default:hover{background:#085eb8; border:1px solid #085eb8; color:#fff}
+/*----btn-primary----*/
+.table-body .btn-primary{background:#085eb8; border:1px solid #085eb8; padding:1px 12px; color:#fff; font-size:12px; text-transform:capitalize}
+.table-body .btn-primary:hover{background:#f75458; border:1px solid #d34548}
+/*---Table icons---*/
+.table-body i.icon-bg{width:40px; height:40px; display:block; margin:0 auto 3px; opacity:0.5}
+.table-body:hover i.icon-bg{opacity:1}
+.table-body a i.heart{width:20px; height:16px; display:inline-block; margin:0; background:url(../images/sprite.png) no-repeat -378px -40px}
+.table-body a:hover i.heart, .table-body a:focus i.heart{background-position:-378px -62px}
+.table-body a i.call24{width:20px; height:19px; display:inline-block; margin:0 0 0 10px; background-position:-463px -490px}
+.table-body a:hover i.call24, .table-body a:focus i.call24{background-position:-463px -511px}
+.table-body a i.delete{width:18px; height:19px; display:inline-block; background-position:-562px -27px}
+.table-body a:hover i.delete, .table-body a:focus i.delete{background-position:-562px -50px}
+.table-body i.mobile,.table-body .mobile i{background-position:-85px 0}
+.table-body i.landline,.table-body .landline i{background-position:-89px -34px}
+.table-body i.dth,.table-body .dth i{background-position:-87px -67px}
+.table-body i.datacard,.table-body .datacard i{background-position:-89px -100px}
+.table-body i.gas,.table-body .gas i{background-position:-86px -132px}
+.table-body i.electricity,.table-body .electricity i{background-position:-86px -166px}
+.table-body i.insurance,.table-body .insurance i{background-position:-86px -198px}
+.table-body i.broadband,.table-body .broadband i{background-position:-463px -392px}
+.table-body i.bank,.table-body .bank i{background-position:-123px -73px;}
+.table-body i.social,.table-body .social i{background-position:-123px -104px;}
+.table-body i.wallet,.table-body .wallet i{background-position: -213px -30px;}
+.table-body i.default,.table-body .default i{background-position:-553px -183px}
+
+/*----My Profile----*/
+.my-profile .profile-details{margin-bottom:30px}
+.my-profile .profile-details .profile-pic{border-radius:100%; width:150px; height:150px; overflow:hidden; margin:0 auto 10px; position:relative; border:1px solid #f2f2f2}
+.my-profile .profile-details .profile-pic .mou-hover{background:rgba(0,0,0,0.6) url(../images/pencil.png) no-repeat center 42%; position:absolute; width:100%; height:100%; bottom:-100%; transition: all 0.5s ease; color:#fff; text-align:center; padding:50% 0 0 0; left:0; font-weight:300; text-decoration:none}
+.my-profile .profile-details .form-inline select.form-control{width:100%}
+.my-profile .profile-details .profile-pic:hover .mou-hover{bottom:0; cursor:pointer}
+.my-profile .profile-details .profile-pic img{width:100%}
+.my-profile .profile-details .profile-name{font-size:16px; color:#0083c4; font-weight:500}
+.my-profile .profile-details hr{margin:15px 0}
+.my-profile .profile-details label{font-weight:500; color:#555555}
+.my-profile .profile-details .form-group span, .my-profile .profile-details label span{color:#000; font-weight:500}
+.my-profile .profile-details .btn{font-size:17px}
+.my-profile .editlist{padding:0; margin-bottom:0; list-style:none; background-color:transparent; border-radius:0;}
+.my-profile .editlist.breadcrumb>li+li:before{content:'|'; padding:0 5px}
+
+/*----My Gift Cards----*/
+.my-gift-card{margin-bottom:20px}
+.my-gift-card .card{margin-bottom:5px; position:relative; border-radius:10px; /*overflow:hidden;*/ max-width:410px}
+.my-gift-card .card .valid{background:url(../images/valid.png) no-repeat 0 0; width:90px; height:81px; position:absolute; left:0; top:0; z-index:9; cursor:pointer}
+.my-gift-card .card .valid-hover{background:rgba(0,0,0,0.7) url(../images/shop-now.png) no-repeat center 39%; position:absolute; width:100%; height:100%; left:0; bottom:0; border-radius:5%; transition: all 0.5s ease; text-transform:uppercase; color:#fff; padding-top:37%; text-align:center; cursor:pointer;opacity:0;}
+.my-gift-card .card:hover .valid-hover, .my-gift-card .card:focus .valid-hover{/*bottom:0;*/ cursor:pointer; opacity:1}
+/*--Expired--*/
+.my-gift-card .card .expire{background:rgba(185,185,185,0.5); position:absolute; width:100%; height:100%; left:0; top:0; border-radius:5%}
+.my-gift-card .card .expired{background:url(../images/expired.png) no-repeat 0 0; width:90px; height:81px; position:absolute; left:0; top:0; z-index:1; cursor:pointer}
+.my-gift-card .card .expire-hover{background:rgba(0,0,0,0.7) url(../images/delete.png) no-repeat center 39%; opacity:0; position:absolute; width:100%; height:100%; left:0; bottom:0; border-radius:5%; transition: all 0.5s ease; text-transform:uppercase; color:#fff; padding-top:37%; text-align:center; cursor:pointer}
+.my-gift-card .card .not-available{background:url(../images/not-available.png) no-repeat 0 0;width:90px;height:81px;position:absolute;left:0;top:0;z-index:1;cursor:pointer}
+.my-gift-card .card:hover .expire-hover{ cursor:pointer; opacity:1}
+.gift-card.expired-card img{opacity:.5}
+.gift-card.expired-card p,.gift-card.expired-card a{color:#b5b5b5}
+.gift-card .card .not-available{background:url(../images/not-available.png) no-repeat 0 0;width:90px;height:81px;position:absolute;left:0;top:0;z-index:1;cursor:pointer}
+.gift-card-home.slick-slider .slick-list .slick-slide img{overflow:hidden; border-radius:5px border: solid 1px #eee; }
+/*--Expired end--*/
+
+.gift-card{margin-bottom:10px; min-height:160px}
+.gift-card .card{margin-bottom:5px; position:relative; border-radius:5%; text-align:center;overflow:hidden}
+.carddetailImage{border-radius:10px; overflow:hidden;}
+.gift-card .card img{display:inline-block}
+.gift-card .card .valid-hover{background:rgba(0,0,0,0.7) url(../images/shop-now.png) no-repeat center 39%; position:absolute; width:100%; height:100%; left:0; bottom:0; opacity:0; border-radius:5%; transition: all 0.5s ease; text-transform:uppercase; color:#fff; padding-top:37%; text-align:center; cursor:pointer;}
+.gift-card .card:hover .valid-hover, .gift-card .card:focus .valid-hover{opacity:1; cursor:pointer}
+.my-gift-card p{color:#494949; margin:0 0 0 10px}
+.my-gift-card p.name a{font-weight:500}
+.my-gift-card p.date {font-size:12px}
+.my-gift-card p.name a:focus, .my-gift-card p.name a:active{text-decoration: none}
+.my-gift-card a{font-size:16px;}
+.my-gift-card .price{font-size:18px; color:#0c8000; font-weight:500}
+.my-gift-card .expired{font-size:10px; color:#666}
+.my-gift-card.expired-card img{opacity:0.7}
+.my-gift-card.expired-card, .my-gift-card.expired-card p, .my-gift-card.expired-card a, .my-gift-card.expired-card.price, .my-gift-card.expired-card .expired{color:#b5b5b5}
+.my-gift-card.expired-card a:hover, .my-gift-card.expired-card a:focus, .my-gift-card.expired-card a:active{text-decoration:none; cursor:default}
+
+
+/*----virtual-visa-card----*/
+.virtual-visa-card.slick-slider .slick-list{margin:0}
+.virtual-visa-card.slick-slider .slick-dots{position:absolute; bottom:0; right:20px; margin: 0}
+.virtual-visa-card.slick-slider .slick-dots li{float:left; padding: 0;}
+.virtual-visa-card.slick-slider .slick-dots li:before, .virtual-visa .virtual-benefits li:before, .prepaid-visa li:before{display:none}
+.virtual-visa-card.slick-slider .slick-dots li button{background:#949690; width:12px; height:12px; border-radius:100%; text-indent:-9999px; margin-left:10px}
+.virtual-visa-card.slick-slider .slick-dots li.slick-active button{background:#ebeae9}
+
+.virtual-visa .blue-bg{background:#3273b7 url(../images/vv-phone.jpg) no-repeat right bottom; color:#fff; min-height:505px; padding-top:10px}
+.virtual-visa .virtual-benefits{margin:0}
+.virtual-visa .virtual-benefits li{margin:6px 0; float:left; width:100%; padding: 0;}
+.virtual-visa .virtual-benefits li article{float:left; width:80%; padding:3px 0 0 0}
+.virtual-visa .virtual-benefits li article h5{font-size:17px; font-weight:400; padding:0; margin:0 0 5px 0}
+.virtual-visa .virtual-benefits li span{width:54px; height:54px; border:1px solid #6f9bcc; display:inline-block; float:left; border-radius:54px; position:relative; margin-right:10px}
+.virtual-visa .virtual-benefits li span i{width:32px; height:20px; display:inline-block; position:absolute; right:0; left:0; margin:0 auto; top:33%}
+.virtual-visa .virtual-benefits li span i.visa{background-position:-15px -313px}
+.virtual-visa .virtual-benefits li span i.prepaid{background-position:-53px -315px}
+.virtual-visa .virtual-benefits li span i.everyone{background-position:-6px -340px}
+.virtual-visa .virtual-benefits li span i.secure{background-position:-37px -340px}
+.virtual-visa .virtual-benefits li span i.gift{background-position:-63px -341px}
+
+.virtual-visa-box{border:1px solid #e5e5e5; border-radius:5px; padding:0 5%; min-height:127px; margin:30px 0}
+.virtual-visa-box span.icon{width:61px; height:61px; border:1px solid #e5e5e5; border-radius:61px; display:inline-block; position:relative; background:#fff; margin-top:-30px}
+.virtual-visa-box span i{width:34px; height:34px; display:inline-block; background-position:-216px -199px; position:absolute; right:0; left:0; margin:0 auto; top:20%}
+.virtual-visa-box h4{color:#333b41; font-size:17px;; font-weight:400}
+.virtual-visa-box span i.virtualE{background-position:-248px -199px}
+.virtual-visa-box span i.pvisa{background-position:-277px -199px}
+.virtual-visa-box span i.lmoney{background-position:-318px -199px}
+.virtual-visa-box span i.scard{background-position:-359px -199px}
+
+.prepaid-visa{margin:0}
+.prepaid-visa li{float:left; font-size:11px; width:12.444%; text-align:center; padding: 0;}
+.prepaid-visa li span.icon{width:47px; height:47px; border:1px solid #f3f3f3; border-radius:47px; display:block; position:relative; background:#fff; margin:0 auto}
+.prepaid-visa li span i{width:32px; height:28px; display:inline-block; position:absolute; right:0; left:0; margin:0 auto; top:20%}
+.prepaid-visa li span i.food-entertainment{background-position:-3px -438px;}
+.prepaid-visa li span i.toys{background-position:-33px -438px;}
+.prepaid-visa li span i.home-living{background-position:-63px -438px;}
+.prepaid-visa li span i.health-beauty{background-position:-103px -438px;}
+.prepaid-visa li span i.travel{background-position:-134px -438px;}
+.prepaid-visa li span i.electronics{background-position:-165px -438px;}
+.prepaid-visa li span i.fashions{background-position:-198px -438px;}
+.prepaid-visa li span i.cabs{background-position:-227px -441px;}
+
+/*----Add Money----*/
+/*.blue-white-bg{background:url(../images/blu-bg-big.jpg) repeat-x 0 0}*/
+.blue-white-bg .use-oxigen h6{text-align:center; font-size:15px; color:#494949;font-weight:600}
+.blue-white-bg .use-oxigen span i{width:58px; height:56px; top:21%}
+.blue-white-bg .use-oxigen i.enter-amount {background: url(../images/price.png) no-repeat 0 0}
+.blue-white-bg .use-oxigen .icon-arrow:after{content:"\e092"; font-family:'Glyphicons Halflings'; color:#e5e5e5; top:16%; right:-6%; position:absolute; font-size:26px; font-weight:400}
+
+/*----Gift Card Popup----*/
+.gift-card-modal h3{font-size:17px; font-weight:400; color:#494949}
+.gift-card-modal .modal-header{background:#f3f3f3; border-radius:10px 10px 0 0}
+.gift-card-modal .card-rates{border-bottom:1px solid #e5e5e5; float:left; width:100%}
+.gift-card-modal .card-rates p{margin:10px 0 0 0}
+.gift-card-modal .price{font-size:24px; color:#0c8000; font-weight:500}
+.gift-card-modal .expire{font-size:18px; color:#666666; font-weight:500}
+.gift-card-modal .card-number{background:#085eb8; color:#fff; font-size:24px}
+
+/*----about-us-page----*/
+.about-us-page{line-height:22px}
+.about-us-page .live-feeds{margin:0 0 0 10px}
+.about-us-page .live-feeds section{padding:15px}
+.stratergy-brand ul{margin:0}
+.stratergy-brand ul li:nth-child(1){padding-top:0}
+.stratergy-brand ul li{border-bottom:1px solid #cccccc; padding:18px 0 0px; position:relative; font-size:15px; font-weight:500; color:#454545}
+.stratergy-brand ul li:before{display:none}
+.stratergy-brand ul li:after{content:''; background-color:#4b4c4d; position:absolute; width:10px; height:10px; border-radius:100%; bottom:-5px; right:0}
+.stratergy-brand ul li .amount{color:#0c4d91; font-size:33px; font-weight:400}
+.stratergy-brand ul li .plus{color:#f75458; font-size:14px; margin-right:15px; font-weight:300}
+.stratergy-brand h3.heading-big{margin-bottom:10px !important}
+
+/*----Contact Us----*/
+.address-bg{background:rgba(245,246,260,0.5); border:1px solid rgba(235,235,235,0.3); border-radius:5px; padding:0 15px 10px}
+.address-bg h3{padding:0 0 10px; margin:20px 0 15px; font-size:16px; font-weight:500; color:#454545; border-bottom:1px solid #e1e2e3; position:relative}
+.address-bg p{margin:15px 0}
+.address-bg h3:after{content:''; background:#d32f2f; height:3px; width:25%; position:absolute; bottom:-2px; left:0}
+.address-bg i{width:18px; height:24px; display:inline-block; float:left; margin-right:8px}
+.address-bg i.address{background-position:-264px -443px; margin:3px 8px 20px 0}
+.address-bg i.phone-number{background-position:-287px -447px}
+.address-bg i.fax-number{background-position:-314px -447px}
+.address-bg i.email{background-position:-341px -447px}
+.address-bg i.cin{background-position:-404px -447px}
+
+/*----Icon----*/
+.edit-data{width:18px; height:29px; display:inline-block; background-position:-224px -73px; text-indent:-9999px; margin-left:10px}
+.delete-data{width:24px; height:29px; display:inline-block; background-position:-222px -110px; text-indent:-9999px; margin-left:10px}
+.warning-data{width:18px; height:29px; display:inline-block; background-position:-224px -150px; text-indent:-9999px; margin-left:10px}
+
+/*----Form Icon----*/
+.form-group{margin-bottom:20px}
+.form-control{height:38px}
+.form-control.disable{cursor:not-allowed; background:#eee!important;}
+.input-group{width:100%}
+.input-group div{display:table; width:100%;}
+
+.form-control:focus{border-color:#ccc; box-shadow:none}
+/*select, select.with-arrow{background-position:right -4px;}*/
+.input-group-addon{padding:2px 7px; min-width:39px; font-weight:500}
+.recharge-bills .tab-content span.browse-plan a{color:#0000FF; background:#fff; box-shadow: none; border-color:#d4d4d4!important}
+.input-group-btn.browse-plan .btn.btn-default{text-transform:capitalize; color:#0000FF; background:transparent; border-color:#ccc; height:38px; padding:9px; border-left:0; font-size:12px;border-radius:0 4px 4px 0}
+.success-apply{font-size:12px; color:#1caa41; line-height:20px}
+.success-apply i{width:21px; height:21px; display:inline-block; background-position:-374px -314px; margin-right:5px}
+.green{color:#0c8000!important;}
+.success-apply.failed, .failed,.cancelled,.refused{color:#f13a3e; line-height:18px}
+.failed i{/*background-position:-374px -340px;*/ background:url(../images/error-image.png) no-repeat 0 0; width:19px; height:19px;}
+.print i{color:#1caa41; margin-right:5px}
+.email i{color:#397ec6; margin:0 5px 0 10px}
+.email {display:none;}
+.review.email{display: block !important;}
+.promo-space{margin-bottom:6px!important;}
+.field-paymentform-promo_code{margin-bottom: 0px !important;}
+
+.transaction-gery{font-size:16px; font-weight:500; color:#4f4f4f}
+.transaction-gery i{display:none}
+.transaction-success, .transaction-failed{font-size:17px; font-weight:500; line-height:36px}
+.transaction-success i{width:36px; height:36px; display:inline-block; background-position:-253px -489px; margin-right:8px}
+.transaction-success i.smiley{background-position:-342px -489px; margin:0 0 0 8px;display: none}
+.transaction-failed{color:#ff373b}
+.transaction-failed i.failed-icon{width:36px; height:36px; display:inline-block; background-position:-297px -489px; margin-right:8px}
+.transaction-failed i.sad-icon{width:36px; height:36px; display:none; background-position:-384px -490px; margin-left:8px}
+
+.captcha-code .input-group-addon{width:39px; float:left}
+.captcha-code input.form-control{border-radius: 0 3px 3px 0; float:left; width: 168px; height:37px}
+.captcha-code .form-group{ float: left;  width: 100%; margin-bottom: 0}
+
+.input-group-addon.rupee{font-size:22px; font-weight:400}
+.form-icon{width:26px; height:28px; display:inline-block; position:relative}
+.full-name{background-position:-252px -135px}
+.mobile-number{background-position:-311px -136px}
+.email-id{background-position:-284px -136px}
+.location{background-position:-335px -139px}
+.account-number{background-position:-468px 3px}
+.ifsc{background-position:-335px -139px}
+.password{background-position:-469px -50px}
+.location{background-position:-335px -136px}
+.comments{background-position:-362px -141px; position:absolute; left:10px; top:10px}
+.calender{background-position:-253px -165px}
+.home-address{background-position:-283px -165px}
+.promo-code{background-position:-427px -246px}
+.help-topics{background-position:-308px -163px}
+.transaction-no{background-position:-332px -164px}
+.captcha{background-position:-359px -166px}
+.mobile-email{background-position:-384px -150px}
+.bank-account{background-position:-469px -76px}
+.payback-points-account{background-position:-467px -102px}
+.lock{background-position:-383px -96px}
+.refer{background-position:-469px -132px}
+.credit-card{background-position:-469px -161px}
+
+
+.service-tabs-mob a.next,.service-tabs-mob a.previous{display:none}
+
+/*--- send money to bank ----*/
+.nav-tabs.radioTab{margin-left:0;border:none}
+.nav-tabs.radioTab>li.active>a, .nav-tabs.radioTab>li.active>a:focus, .nav-tabs.radioTab>li.active>a:hover{border-color:transparent}
+.nav-tabs.radioTab>li{margin-bottom:0px; padding:0}
+.nav-tabs.radioTab>li:before{display:none}
+.nav-tabs.radioTab>li>a{padding:0}
+.nav-tabs.radioTab>li>a .radio{margin-top:0}
+.nav-tabs.radioTab>li>a .radio label {color:#666}
+.nav-tabs.radioTab>li>a:hover{border-color:transparent;background:#fff;}
+.service-tabs-mob a.next,.service-tabs-mob a.previous{display:none}
+
+/*----Footer----*/
+footer{background:#490303; color:#fff; padding:20px 0;min-height:350px;}
+footer h2{padding:0; margin:0; font-size:20px; font-weight:400}
+footer .download-app h2{padding:0; margin:16px 0 0 0}
+footer .download-app a{width:186px; height:56px; display:inline-block; background:url(../images/app-google.png) no-repeat 0 0; background-size:cover; text-indent:-9999px; margin-left:15px; border-radius:6px; opacity:10}
+footer .download-app a:hover{background:url(../images/app-google.png) no-repeat 0 bottom; background-size:cover}
+footer .download-app a.btn.btn-danger{height:auto; text-indent:inherit; background:#d32f2f; display:block; border-radius:3px}
+footer .download-app a.apple-app{background:url(../images/app-apple.png) no-repeat 0 0; background-size:cover}
+footer .download-app a.apple-app:hover{background:url(../images/app-apple.png) no-repeat 0 bottom; background-size:cover}
+footer .download-app a.windows{background:url(../images/app-window.png) no-repeat 0 0; background-size:cover}
+footer .download-app a.windows:hover{background:url(../images/app-window.png) no-repeat 0 bottom; background-size:cover}
+footer .panel-group .panel-default .panel-heading{padding:0}
+footer .panel-group .panel-default .panel-heading h2 span{color:#fff; font-size:18px; font-weight:300;}
+footer .panel-group .panel-default .panel-heading h2 a{display:none}
+footer .panel-group .panel-default>.panel-heading{background:transparent; border-color:transparent}
+footer .panel-default>.panel-heading+.panel-collapse>.panel-body{border:none; padding:0}
+footer hr{border-top:1px solid #495259}
+footer ul{display:block; padding:10px 0; margin-left:0}
+footer ul li{padding:0}
+footer ul li:before{display:none}
+footer ul li a, footer ul li a:focus, footer ul li a:active{color:#bab8bb; font-size:13px; display:block; padding:3px 0; text-decoration:none}
+footer ul li a:hover{color:#fff; text-decoration:none}
+
+footer .connect h2{font-size:18px; font-weight:300}
+footer .connect a {border:1px solid #495058; border-radius:100%; width:33px; height:33px; display:inline-block; text-align:center; padding-top:3px; margin:10px 5px 0 0}
+footer .connect a i{opacity:0.6}
+footer .connect a:hover{border-color:#555}
+footer .connect a:hover i{opacity:10}
+footer .connect .connect-icon.facebook i{background-position:-281px -3px}
+footer .connect .connect-icon.twitter i{background-position:-313px -3px}
+footer .connect .connect-icon.linked-in i{background-position:-344px -3px}
+footer .connect .connect-icon.instagram i{background-position:-379px -3px}
+.connect .connect-icon i{width:20px; height:20px; /*margin:10px 4px 0;*/ display:inline-block; margin:0 auto}
+
+footer .download-app .connect{padding:0}
+footer .download-app .connect a{width:44px; height:44px; margin:0 4px 10px; display:inline-block; background:none; position:relative; border:none; border-radius:0}
+footer .download-app .connect a i{position:absolute; left:0; opacity:10; width:44px; height:44px}
+footer .download-app .connect .connect-icon.google-mobile i{background-position:-318px -44px}
+footer .download-app .connect .connect-icon.apple-mobile i{background-position:-274px -44px}
+footer .download-app .connect .connect-icon.windows-mobile i{background-position:-274px -88px}
+.footer-chakra{height:21px;width:21px;display:inline-block;vertical-align:middle;background-position:-513px -250px}
+section.copyright{border-top:1px solid #3a434a; background:#000; color:#b1b1b3; padding:5px 0; font-size:12px}
+.transparent-layer{width:100%;height:100%;position:fixed;background: transparent;}
+/*----Transaction Page----*/
+.transaction-page hr{margin-bottom:0}
+.favourite a{color:#666; font-weight:500}
+.favourite-icon{width:20px; height:16px; display:inline-block; background-position:-378px -40px; margin:0 5px 0 0;}
+.favourite a.active .favourite-icon{background-position:-378px -62px}
+.favourite a:focus{text-decoration:none}
+
+/*--- date time picker css ----*/
+.datepicker{z-index:9999 !important;}
+.home section.white.map-white{padding:5px}
+.home section.white.map-white .locate-message{position:absolute; bottom:0; background: #fff; padding:0.5% 1%; width: 99%; z-index: 9}
+#map{width:100%; height:100%; min-height:330px;}
+.map-phone{background:url(../images/mobile-number.png) no-repeat 0 4px; padding:0 0 10px 18px; font-size:14px; font-weight:400; }
+.map-address{background:url(../images/address-tip.png) no-repeat 0 3px; padding-left:18px; font-size:14px; font-weight:400; }
+.map-address small,.map-phone small{display: block; font-size: 11px;}
+/*----Plans-----*/
+.plans{border:1px solid #e1e1e1; background:#eee; border-radius:3px; font-size:14px; color:#666; height:38px; padding:9px 0; font-weight:400; width:23%; text-align:center; float:left; margin-right:2%; cursor: pointer}
+.plans.active{background:#e4f1fa; color:#2379d2; border-color:#83b0de; cursor:default}
+
+.home .recharge-bills.money-transfer .nav-tabs.radioTab > li{width:50%;}
+.not-active{pointer-events: none;cursor: default;}
+.form-group .field-mobilerecharge-amount input.form-control, .form-group .field-mobilerecharge-service_number input.form-control{border-radius:0 4px 4px 0!important}
+.form-group.operator-name .field-mobilerecharge-amount input.form-control, .form-group.operator-name .field-mobilerecharge-service_number input.form-control{border-radius:0!important}
+.form-group.operator-name .browse-plan a.disabled, .form-group .operator-name .browse-plan a.disabled{opacity:1;color:#555}
+.apply_promo_code .btn{border-radius:0px 4px 4px 0}
+.input-group .form-group .form-control.show-apply-promo{border-radius:0px 4px 4px 0}
+.input-group.operator-name .form-group .form-control.show-apply-promo{border-radius:0}
+
+/*----Download App Popup----*/
+#memberModal .modal-content{min-height:421px; min-width:700px; background:#f4f7f9 url(../images/sachin-app.jpg) no-repeat right top}
+#memberModal .modal-content .modal-body{padding:30px 15px 15px 30px}
+#memberModal .modal-content small{font-size:10px}
+#memberModal .modal-content .download-app-prompt{margin:10px 0; font-weight:500; font-size:15px; color:#191b21; float:left; width:100%}
+#memberModal .modal-content .download-app-prompt span{padding:12px 10px 0 0; float:left}
+#memberModal .modal-content .download-app-prompt a{width:45px; height:45px; display:inline-block; text-indent:-9999px; background:url(../images/download-app-from.png) no-repeat 0 0; margin-right:8px}
+#memberModal .modal-content .download-app-prompt a.apple-url{background-position:-52px 0}
+#memberModal .modal-content .download-app-prompt a.windows-url{background-position:right 0}
+
+/*has success has error*/
+.has-success .form-control, .has-error .form-control{-webkit-box-shadow:none; box-shadow:none}
+.has-success .input-group-addon.operator, .has-error .input-group-addon.operator{background-color:#fff!important}
+.has-success .form-control, .recharge-bills .has-success .input-group .input-group-addon{border-color: #1caa41 !important; color:#666}
+.has-success .input-group-btn.browse-plan .btn.btn-default{border-color: #1caa41 !important}
+.has-error .help-block, .help-block,.has-success .alert.alert-danger{font-size:12px; color:#f13a3e; line-height:18px; background:url(../images/error-image.png) no-repeat 0 0; padding-left:22px}
+.has-error .input-group-btn.browse-plan .btn.btn-default{border-color: #f13a3e !important}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label,.has-success .help-block.red{color:#f13a3e}
+.has-error .form-control, .recharge-bills .has-error .input-group .input-group-addon, .has-error .input-group .input-group-addon{border-color: #f13a3e !important; color:#666}
+#payback-redeem-ponts-error.alert.alert-danger{background:url(../images/error-image.png) no-repeat 0 0; margin-top:5px;padding-left: 23px;font-size: 12px;line-height: 18px}
+.form-control[readonly]{background-color:#fff}
+.payback-background{width:68px;height:26px;display:inline-block;vertical-align:top;background-position: -513px -283px}
+.blue-background{background:rgba(247,248,250,1);background:-moz-linear-gradient(top,rgba(247,248,250,1) 0,rgba(255,255,255,1) 100%);background:-webkit-gradient(left top,left bottom,color-stop(0%,rgba(247,248,250,1)),color-stop(100%,rgba(255,255,255,1)));background:-webkit-linear-gradient(top,rgba(247,248,250,1) 0,rgba(255,255,255,1) 100%);background:-o-linear-gradient(top,rgba(247,248,250,1) 0,rgba(255,255,255,1) 100%);background:-ms-linear-gradient(top,rgba(247,248,250,1) 0,rgba(255,255,255,1) 100%);background:linear-gradient(to bottom,rgba(247,248,250,1) 0,rgba(255,255,255,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f8fa',endColorstr='#ffffff',GradientType=0);float:left;padding:25px 10px 0;}
+.row-blue-bg{margin-right:-20px; margin-left:-20px;}
+#promotion_banner, #offer_banner{padding:0; min-height: 70px}
+#promotion_banner .slick-arrow{visibility:hidden}
+#merchant-slider{min-height:70px}
+.disable-url {color:#666; text-decoration: none; cursor: default; }
+.disable-url:focus {text-decoration: none; cursor: default; }
+.my-profile .profile-breadcrumb>li:nth-child(2):before{display:none}
+.modal-backdrop.in{opacity:0.7}
+.gray-link{color: #666;}
+
+
+.browse-plan-disable{width: 91px;height: 38px;display: inline-block;position: absolute;right: 0;z-index: 999;top:0}
+.browseplan.collapse.in {display: block;}
+.browseplan.collapse {display: none;}
+/*.home .electricity-overflow{overflow:auto;height:210px}
+.electricity-overflow.gas-overflow{height:180px}
+.electricity-overflow.broadband-overflow {height: 180px;}*/
+#gift-card{min-height:80px}
+
+/* map search css*/
+#map {height: 100%;}
+.controls {margin-top: 10px;border: 1px solid transparent;border-radius: 2px 0 0 2px;box-sizing: border-box;-moz-box-sizing: border-box;height: 32px;outline: none;box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);}
+#pac-input {background-color: #fff;font-family: Roboto;font-size: 15px;font-weight: 300;margin-left: 12px;padding: 0 11px 0 13px;text-overflow: ellipsis;width: 300px;position: absolute;z-index: 999;left: 127px;}
+#pac-input:focus {border-color: #4d90fe;}
+.pac-container {font-family: Roboto;}
+#type-selector {color: #fff;background-color: #4d90fe;padding: 5px 11px 0px 11px;}
+#type-selector label {font-family: Roboto;font-size: 13px;font-weight: 300;}
+
+/*Pagination*/
+.action .pending .hide.cancel,.success .hide.repeat,.failed .hide.tryAgain,.receiver .hide.repeat{display: inline-block !important;}
+.success.receiver .hide.repeat { display:none !important; }
+
+.shop{background-position:-562px -135px; width:19px; height:18px; margin-top:2px}
+.become-a-seller{position:fixed; top:30%;}
+.become-a-seller a{background-image:url(../images/become-seller.png); width:36px; height:206px; display:inline-block; text-indent:-9999px}
+.become-a-seller a:hover{background-position:right 0}
+.field-retailer-otp #retailer-otp{border-right: 0}
+#retailer_resend_otp a.disabled{opacity:1; color:#bbb; cursor:not-allowed; background: #eee}
+
+/*----btn seller----*/
+.btn-seller{background:#fff; border:1px solid #fff; text-transform:capitalize; padding:5px 12px; color:#0c2c4e; font-weight:500}
+.btn-seller:hover{background:#f5393d; border:1px solid #f5393d; color:#fff; box-shadow:none}
+.become-a-seller-mobile{background:#d32f2f; color:#fff; display:inline-block; width:100%; position:fixed; top:0; z-index:99999; padding:5px 9px; font-weight:500; line-height:32px;}
+.become-a-seller-mobile i{background:url(../images/seller-arrow.png) 0 0; width:37px; height:10px; display:inline-block; margin:0 7px}
+
+.upload-PC{position: relative}
+.upload-PC .info-icon{padding:7px; min-width: 39px; font-weight: 500; font-size: 14px; line-height: 1; color: #555; text-align:center; background-color: #eee; border: 1px solid #ccc; border-radius: 0 4px 4px 0; position:absolute; min-height: 38px; top: 0; right: 0}
+.upload-PC .info-icon i{font-size: 18px;}
+.upload-PC .form-control .form-group .upload-image-statue small{margin-left:5px}
+.upload-PC .form-control{padding:5px 12px}
+.upload-PC .form-control a.btn.btn-grey{padding:2px 10px}
+.upload-PC .form-control a.btn.btn-grey input{position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;min-height: 38px;width:80%;}
+
+.merchant-box{border:1px solid #ebebeb; border-radius:5px 5px 0 0}
+.bank-details1{display:block; background:#eaf2f9; padding:10px; font-weight:500; color:#555; margin-bottom:10px}
+.bank-details a{display:block; background:#eaf2f9; padding:10px; font-weight:500; color:#555}
+.bank-details a:hover, .bank-details a:active, .bank-details a:focus{text-decoration:none}
+.merchant-box .collapse.in, .merchant-box .collapsing{padding-top:20px; /*overflow:hidden*/}
+.bank-details a.collapsed:before{position:absolute; content:'\002b'; font-family:'Glyphicons Halflings'; font-weight:400; font-size:14px; color:#666; right:25px; top:9px;}
+.bank-details a:before{position:absolute; content:'\2212'; font-family:'Glyphicons Halflings'; font-weight:400; font-size:14px; color:#666; right:25px; top:9px;}
+
+
+
+/*----Location Share----*/
+.share-location{cursor:pointer}
+.share-location:hover > .location-share{visibility:visible; transition: opacity 0.3s, visibility 0.3s; opacity:1}
+.location-share{width:40px; position:absolute; left:15%; top:30px; z-index:99999; margin:0; background:#fff; text-align:center; padding:5px 0 0 0; border-radius:5px; -webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.7); -moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.7); box-shadow:0px 0px 5px 0px rgba(0,0,0,0.7); visibility:hidden; transition: opacity 0.3s, visibility 0.3s; opacity:0}
+.location-share:before{width: 0; height: 0; border-left: 5px solid transparent;border-right: 5px solid transparent;border-bottom: 5px solid #fff; content:''; position:absolute; top:-5px; right:0; left:0; margin:0 auto}
+.location-share a{ width:28px; height:26px; background:url(../images/share-image.png) no-repeat 0 0; display:inline-block; text-indent:-9999px; margin:5px 0}
+.location-share a.facebook{ background-position:0 0}
+.location-share a.google-plus{background-position:0 -34px}
+.location-share a.twitter{background-position:0 -68px}
+
+.ai-inti{position:absolute; background:#fafafa; width:100%; top:38px; left:0; z-index:9; border:1px solid #e1e1e1}
+.ai-inti ul{margin:0; padding:0; float:left; overflow-y:auto; height:80px; width: 100%}
+.ai-inti ul li{float:left; width:100%; border-bottom:1px solid #e1e1e1; padding:5px; color:#666}
+.ai-inti ul li:before{display:none}
+.ai-inti ul li .operator{background-color:transparent}
+.ai-inti ul li .opernumber{padding:5px 0 6px 7px;}
+
+/*Expired banners*/
+.expired-banners .image{position:relative; border:1px solid rgba(204,204,204,0.35);box-shadow: 0 1px 10px rgba(0,0,0,.1); border-radius:5px; overflow:hidden}
+.zeroheight{opacity:0 !important;line-height:0 !important;height: 0px !important; overflow:hidden}
+.offersLast{transition: all .5s;height:100px;opacity:1;line-height:100px}
+.expired-banners .image .expired{background:url(../images/expired.png) no-repeat 0 0; width:90px; height:81px; position:absolute; left:0; top:0; z-index:1; cursor:pointer}
+.see-all-offers{border-bottom:1px solid #eee; float:left; width:100%; text-align:center; height:45px;}
+.see-all-offers a{background:#0c2c4e; color:#fff; padding:10px; font-size:16px; display:inline-block; margin-left:5px}
+.see-all-offers a i{border:1px solid #fff; border-radius:50px; padding:3px; font-size:14px; margin:0 5px}
+.see-all-offers a i:before{content:"\e259";}
+.see-all-offers a.hover i:before{content:"\e260";}
+a.disabled.morereview{pointer-events:none;background:none;color:#777;cursor:not-allowed;}
+.my-gift-card .card .expired{background:url(../images/expired.png) no-repeat 0 0; width:90px; height:81px; position:absolute; left:0; top:0; z-index:1; }
+/*End expired banners*/
+
+/*
+@media (min-width:1400px) and (max-width:30000px){
+	.container{width:98%}
+	.navbar-default .navbar-brand{position:relative; left:40px}
+}*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-default .navbar-brand{top:10px; margin-left:1%!important;}
+	.navbar-form{width:26%}
+	.heading h3, .heading h4{font-size:100%!important}
+	/*.use-oxigen span{width:65px; height:65px}
+	.use-oxigen span i{top:7%}*/
+	footer .download-app a{margin-left:12px}
+	.service-tabs li a{line-height:normal; font-size:100%; text-align:center}
+	.service-tabs li i{display:block; float:none; margin:0 auto 10px}
+	.virtual-visa .virtual-benefits li article{width:60%}
+	.button-right, .button-left{text-align:center}
+
+	/*--Merchants--*/
+	.merchant-container .nav-tabs>li>a{font-size:14px; margin-right:20px; padding:0 0 10px 0}
+	.merchant-relocator ul li{float:left; width:100%; padding:0 1%; margin-bottom:20px}
+	.merchant-name .promo-code-new{float:right}
+	.merchant-name .offers{ border-top:1px solid #eee; margin:20px 0 -10px}
+	.merchant-name .offers a{display:inline-block; float:left; margin-left:0}
+
+	.download-app-container .downloadMobileApp{position:relative; margin:0 auto}
+	.download-app a{margin:10px 0}
+	.download-app-container .downloadMobileApp-mobile{position: relative;text-align: center;}
+	.download-app-container .use-oxigen{margin-top:-170px; padding:160px 0 40px}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	body{background-image:none;}
+	header .nav > li.wallet > a{padding:15px}
+
+	/*--Merchants--*/
+	.merchant-container .nav-tabs>li>a{font-size:14px; margin-right:20px; padding:0 0 10px 0}
+	.merchant-relocator ul li{float:left; width:100%; padding:0 1%; margin-bottom:20px}
+	.navbar-default .navbar-brand{margin-top:10px; margin-left:3%!important;}
+	.navbar-form{width:26%; margin-left:0}
+	.nav-bar{font-size:100%}
+
+	footer h2{font-size:17px}
+	footer .download-app h2{margin:0 0 16px 0}
+	.download-app span{width:100%; display:block}
+	.download-app h2.pull-left, .download-app span.pull-right{float:none!important; text-align:center}
+	.modal-dialog{width:700px;}
+
+
+	/*----Service Page----*/
+	.service-tabs ul{width:auto!important}
+	.service-tabs li a{line-height:normal; font-size:100%; text-align:center}
+	.service-tabs li i{display:block; float:none; margin:0 auto 10px}
+	.merchant-name .merchant-logo{width:150px; height:78px; background-size:cover}
+	.merchant-name .merchant-logo img{width:75%}
+	.merchant-name .offers{ border-top:1px solid #eee; margin:20px 0 -10px}
+	.merchant-name .offers a{display:inline-block; float:left; margin-left:0}
+	.merchant-name a.btn{float:right}
+	.virtual-visa .blue-bg{background-image:none}
+	.virtual-visa .virtual-benefits li article{width:85%}
+	.merchant-name .promo-code-new{float:right}
+	.button-right, .button-left{text-align:center}
+
+    .captcha-code input.form-control{width:92%; height: 37px}
+
+	.download-app-container .downloadMobileApp-mobile {position: relative; text-align: center;}
+	.download-app-container .use-oxigen{margin-top:-150px; padding-top:160px}
+	.download-app a{margin:0;}
+
+	/*---Table update----*/
+	.table-body .row div{margin-top:3px; margin-bottom:3px; word-wrap:break-word}
+	.table-head, .table-body .row div strong{font-weight:500}
+	.table-body .row div{font-size:13px}
+	.table-body .btn-default{margin:0 0 0 10px}
+	.table-body a i.heart{margin-left:15px}
+	.table-body a i.call24{margin-left:20px}
+
+
+}
+@media (min-width:481px) and (max-width: 767px){
+	body{background-image:none;}
+	.menu{float:right}
+	header .nav > li.wallet > a{padding:15px 10px}
+	.navbar-nav{margin:0}
+	header .nav > li.wallet > a{padding-left:0}
+	header .nav > li.add-money a i{left:-10px}
+
+	.navbar.navbar-default .container{padding-right:0}
+	.navbar.navbar-default{float:left; width:100%}
+	.navbar-default .navbar-brand{margin-left:6%; width:94px; background:url(../images/logo-mobile.png) no-repeat 0 0; background-size:cover}
+
+	/*----Menu----*/
+	#menu .slide-menu ul li.submenu:after, #menu .slide-menu ul li.flagmenu:after{content:'+'; font-size:15px; position:absolute; right:10px; top:10px; color:#fff; font-weight:500}
+	#menu .slide-menu ul li.submenu.open:after, #menu .slide-menu ul li.flagmenu.open:after{content:'-';}
+	#menu .slide-menu ul li.submenu ul, #menu .slide-menu ul li.flagmenu ul{background:#051a30}
+	#menu .slide-menu ul li.submenu ul li, #menu .slide-menu ul li.flagmenu ul li{margin-left:20px}
+	.submenu ul li, .flagmenu ul li {height: 0px;transition: height .5s;}
+	.submenu.open ul li, .flagmenu.open ul li {height:46px;transition: height .5s;}
+
+
+
+
+    #menu .slide-menu ul li.submenu1:after, #menu .slide-menu ul li.flagmenu:after{content:'+'; font-size:15px; position:absolute; right:10px; top:10px; color:#fff; font-weight:500}
+    #menu .slide-menu ul li.submenu1.open:after, #menu .slide-menu ul li.flagmenu.open:after{content:'-';}
+    #menu .slide-menu ul li.submenu1 ul, #menu .slide-menu ul li.flagmenu ul{background:#051a30}
+    #menu .slide-menu ul li.submenu1 ul li, #menu .slide-menu ul li.flagmenu ul li{margin-left:20px}
+    .submenu1 ul li, .flagmenu ul li {height: 0px;transition: height .5s;}
+    .submenu1.open ul li, .flagmenu.open ul li {height:46px;transition: height .5s;}
+
+	header .dropdown-menu{position:fixed!important; right:0; top:92px; background-color:#fff!important; border:1px solid #ddd!important; border-top:0px solid transparent;}
+	header .dropdown-menu li a{padding:10px 15px 10px 25px}
+
+	.nav>li{display:inherit; float:left}
+	/*.pad-150{padding-top:70px}*/
+    .pad-150{padding-top:112px}
+    .navbar-fixed-top, #menu{top:42px}
+	.navbar-form{margin:0; border:none}
+	.navbar-form .input-group{min-width:100%}
+	.money-transfer-section, .visa-card-section{padding-left:0; padding-right:0}
+	.merchant-name .merchant-logo{width:150px; height:78px; background-size:cover}
+	.merchant-name .merchant-logo img{width:75%}
+	.merchant-name .name{font-size:15px}
+	.merchant-name .offers{ border-top:1px solid #eee; margin:20px 0 -10px}
+	.merchant-name .offers a{display:inline-block; float:left; margin-left:0}
+	.merchant-name a.btn{float:right}
+
+	/*----Choose Payment Mode----*/
+	.choose-payment-mode .border{border:none}
+	.choose-payment-mode .select-payment-mode{width:100%!important; overflow:auto; overflow-y:hidden; padding-bottom:2px; margin-bottom:8px}
+	.choose-payment-mode .select-payment-mode ul{width:100%!important; border-bottom:1px solid #eee}
+	.choose-payment-mode .select-payment-mode ul li{float:left; width:auto; display:inherit}
+	.choose-payment-mode .select-payment-mode ul li a{padding:10px}
+	.choose-payment-mode .select-payment-mode .nav-tabs>li>a, .choose-payment-mode .nav-tabs>li>a:hover{font-size:14px; border:none; background:transparent}
+	.choose-payment-mode .nav-tabs>li.active>a, .choose-payment-mode .nav-tabs>li.active>a:focus, .choose-payment-mode .nav-tabs>li.active>a:hover{border:none}
+
+	/*---choose-payment-mode Hover Border----*/
+	.choose-payment-mode .select-payment-mode li a{-webkit-transform:translateZ(0); transform:translateZ(0); box-shadow:0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility:hidden; backface-visibility:hidden; -moz-osx-font-smoothing:grayscale; position:relative; overflow:hidden;}
+	.choose-payment-mode .select-payment-mode li a:before{content:""; position:absolute; z-index:-1; left:0; right:100%; bottom:0; background:#f5393d; height:1px;   -webkit-transition-property:right; transition-property:right; -webkit-transition-duration:0.3s; transition-duration:0.3s; -webkit-transition-timing-function:ease-out; transition-timing-function:ease-out;}
+	.choose-payment-mode .select-payment-mode li a:hover:before, .choose-payment-mode .select-payment-mode a:focus:before, .choose-payment-mode .select-payment-mode li a:active:before{right:0}
+	.choose-payment-mode .select-payment-mode li.active a:before{right:0}
+	.choose-payment-mode .tab-content>.tab-pane{margin:0 -15px}
+
+	/*----Service Page----*/
+	.service-tabs li.active:after{display:none}
+	.service-tabs section{padding-bottom:20px}
+	.merchants .service-tabs-mob{margin-bottom:0}
+	.service-tabs-mob{margin:0 0 20px 0; z-index:99}
+	.service-tabs-mob section{overflow:auto; overflow-y:hidden; margin:0; padding:0}
+	.service-tabs-mob ul{float:left; padding:0 10px}
+	.service-tabs-mob li{width:auto; border-bottom:2px solid #fff!important}
+	.service-tabs-mob li.active{border-bottom:2px solid #f5393d!important; background:#fff}
+	.service-tabs-mob li a:before, .service-tabs-mob li a:after{display:none}
+	.service-tabs-mob li a{text-align:center; padding:0 5px; font-size:14px}
+	.service-tabs-mob li a.double{line-height:50px}
+	.service-tabs-mob li i{background-color:transparent; border:none; height:42px; width:48px; margin:0;}
+
+	.service-tabs-mob a.next{display:block; position:absolute; z-index:9; right:16px; top:3px; width:35px; height:43px; background:url(../images/arrow-right.jpg) #fff no-repeat 10px 15px;}
+	.service-tabs-mob a.previous{display:block; position:absolute; z-index:9; left:16px; top:3px; width:35px; height:43px; background:url(../images/arrow-left.jpg) #fff no-repeat  10px 15px;}
+
+
+	/*--Merchants--*/
+	.merchant-container .nav-tabs>li>a{font-size:14px; margin-right:20px; padding:0 0 10px 0}
+	.merchant-relocator ul li{float:left; width:100%; padding:0 1%; margin-bottom:20px}
+
+	/*---- download app----*/
+	.download-app-container{text-align:center}
+	.download-app-container img.chakra{display:block; margin:20px auto; float:none!important}
+	.download-app-container h1{display:block; margin:0 0 10px 0; font-size:24px}
+	.download-app-container p.text{text-align: center; margin:0}
+	.download-app-container h2{margin:30px 0 10px 0; font-size:22px}
+	.download-app a{margin:5px 0}
+	.download-app-container .downloadMobileApp-mobile{position: relative;text-align: center;}
+	.download-app-container .use-oxigen{margin-top: -90px; padding:115px 0 40px}
+	.download-app-container .use-oxigen span{width:100px; height:100px}
+	.download-app-container .use-oxigen p{font-size:16px}
+	.download-app-container .use-oxigen span i{top:23%}
+	.download-app-container .use-oxigen i.self-secure{top:27%}
+
+	.merchant-relocator .filter-now button{width:100%;}
+
+	/*Footer*/
+	footer .download-app h2{font-size:17px; margin:0 0 15px 0; text-align:center; float:none!important}
+	footer .download-app .pull-right{float:none!important; text-align:center; display:block}
+	footer .download-app a{margin:5px auto}
+	footer .panel-group .panel-default .panel-heading h2 span{display:none}
+	footer .panel-group .panel-default .panel-heading h2 a{display:block; color:#fff; font-size:17px; font-weight:300; border:1px solid #a5a8ac;border-radius:4px; padding:10px; margin:20px 0 0; position:relative}
+	footer .panel-group .panel-default .panel-heading h2 a:hover, footer .panel-group .panel-default .panel-heading h2 a:active, footer .panel-group .panel-default .panel-heading h2 a:focus{text-decoration:none}
+	footer .panel-default>.panel-heading+.panel-collapse>.panel-body{padding:0 15px; border:1px solid #a5a8ac; border-radius:5px}
+	footer .panel-group .panel-default .panel-heading h2 a:after{content:'\e260'; font-family:'Glyphicons Halflings'; position:absolute; border:1px solid #a5a8ac; border-radius:100%; width:25px; height:25px; font-size:13px; right:6px; top:6px; text-align:center; padding:5px 0 0 0}
+	footer .panel-group .panel-default .panel-heading h2 a.collapsed:after{content:'\e259'; font-family:'Glyphicons Halflings'; position:absolute; border:1px solid #a5a8ac; border-radius:100%; width:25px; height:25px; font-size:13px; right:6px; top:6px; text-align:center; padding:5px 0 0 0}
+	footer ul li a, footer ul li a:hover,  footer ul li a:focus, footer ul li a:active{color:#a9c2da; padding:5px 0; text-decoration:none}
+	footer .connect{float:left; width:100%; text-align:center; padding-top:15px}
+	footer .connect h2{display:inline; font-size:17px; position:relative; top:-3px; padding-right:8px}
+	footer .connect a{display:inline-block; margin: 0 5px 0 0;}
+	/*footer .connect .connect-icon i{margin:0}	*/
+	.copyright .pull-left, .copyright .pull-right{float:none!important; text-align:center}
+	.virtual-visa .blue-bg{background-image:none}
+	.virtual-visa .virtual-benefits li article{width:75%}
+	.merchant-name .promo-code-new{float:right}
+	.button-right, .button-left{text-align:center}
+	.stratergy-brand{margin-bottom:30px}
+	.stratergy-brand ul li .amount{font-size:30px}
+	.heading-inner h1{font-size:18px}
+	#browseplan .well .validity{margin-bottom:20px}
+	.login-sign-up-popup .modal-content .modal-body{padding-bottom:30px!important}
+	.facebook-button{margin-bottom:20px;}
+	.address-bg-payback .mobile-space-right{padding-right:0; padding-left:60px}
+	.merchant-name .offers a{margin:10px 0 0 15px}
+    .captcha-code input.form-control{width:92%; height: 37px}
+	.prepaid-visa li{width:25%; padding:0 2%; min-height:90px}
+    .browseplan{height:430px;}
+
+    #memberModal{padding:0!important}
+    #memberModal .modal-content{min-height:100%; min-width:100%; background-image:none}
+    #memberModal .modal-content .modal-body{padding:15px; text-align:center}
+    #memberModal .modal-content .download-app-prompt span{float:none!important; display:block; padding:0 0 10px 0}
+
+	/*---Table update----*/
+	.table-body .row div{margin-top:5px; margin-bottom:5px; word-wrap:break-word}
+	.table-body .row div strong{font-weight:700}
+	.table-body .row div{font-size:13px}
+	.table-body .btn-default{margin:0 0 0 10px}
+	.table-body a i.heart{margin-left:15px}
+	.table-body a i.call24{margin-left:20px}
+	.faq .panel-title a{padding-right:12px}
+
+	button#login-reset {margin-bottom: 10px;}
+	.blue-white-bg .use-oxigen .icon-arrow:after{display:none}
+	.blue-white-bg .use-oxigen .icon-arrow{margin-bottom:10px}
+	#pac-input {left: 0 !important; top: 40px !important;}
+}
+
+@media (min-width:300px) and (max-width: 480px){
+	button#login-reset {margin-bottom: 10px;}
+	.transaction-success, .transaction-failed{line-height:20px;}
+	body{background-image:none;}
+	.promo-space-bottom{margin-bottom:15px}
+	.profile-text-center{text-align:center}
+	.pad-null-mobile{padding:0}
+	.navbar.navbar-default .container{padding-right:0}
+	.navbar-default .navbar-brand{margin-left:8%; width:94px; background:url(../images/logo-mobile.png) no-repeat 0 0; background-size:cover}
+	.menu{float:right}
+	header .nav > li.wallet > a{padding:15px 10px}
+	header .nav > li.login > a{padding:15px 10px 15px 44px}
+	header .nav > li.after-login > a{padding:15px 10px 15px 44px}
+	header .dropdown-menu.balance-summary:before{right:40%}
+	header .nav>li>a{padding:10px 12px}
+	.navbar-nav{margin:0}
+	.user-message{top:1px}
+
+	/*----Menu----*/
+	#menu .slide-menu ul li.submenu:after, #menu .slide-menu ul li.flagmenu:after{content:'+'; font-size:15px; position:absolute; right:10px; top:10px; color:#fff; font-weight:500}
+	#menu .slide-menu ul li.submenu.open:after, #menu .slide-menu ul li.flagmenu.open:after{content:'-';}
+	#menu .slide-menu ul li.submenu ul, #menu .slide-menu ul li.flagmenu ul{background:#051a30}
+	#menu .slide-menu ul li.submenu ul li, #menu .slide-menu ul li.flagmenu ul li{margin-left:20px}
+	.submenu ul li, .flagmenu ul li {height: 0px;transition: height .5s;}
+	.submenu.open ul li, .flagmenu.open ul li {height:46px;transition: height .5s;}
+
+
+    #menu .slide-menu ul li.submenu1:after, #menu .slide-menu ul li.flagmenu:after{content:'+'; font-size:15px; position:absolute; right:10px; top:10px; color:#fff; font-weight:500}
+    #menu .slide-menu ul li.submenu1.open:after, #menu .slide-menu ul li.flagmenu.open:after{content:'-';}
+    #menu .slide-menu ul li.submenu1 ul, #menu .slide-menu ul li.flagmenu ul{background:#051a30}
+    #menu .slide-menu ul li.submenu1 ul li, #menu .slide-menu ul li.flagmenu ul li{margin-left:20px}
+    .submenu1 ul li, .flagmenu ul li {height: 0px;transition: height .5s;}
+    .submenu1.open ul li, .flagmenu.open ul li {height:46px;transition: height .5s;}
+
+
+
+
+	header .dropdown-menu{position:fixed!important; right:0; top:92px; background-color:#fff!important; border:1px solid #ddd!important; border-top:0px solid transparent;
+	-webkit-box-shadow:0 7px 10px rgba(0,0,0,0.3)!important; -moz-box-shadow:0 7px 10px rgba(0,0,0,0.3)!important; box-shadow:0 7px 10px rgba(0,0,0,0.3)!important;
+
+	}
+	header .dropdown-menu li a{padding:10px 15px 10px 25px!important}
+	.nav>li{display:inherit; float:left}
+	/*.pad-150{padding-top:70px}*/
+    .pad-150{padding-top:112px}
+    .navbar-fixed-top, #menu{top:42px}
+
+	/*.use-oxigen span{width:70px; height:70px}
+	.use-oxigen span i{top:10%}*/
+	.money-transfer-section, .visa-card-section{padding-left:0; padding-right:0}
+	.copyright .pull-left, .copyright .pull-right{float:none!important; text-align:center}
+	#Login .modal-content{float:left}
+	#Login .modal-content .tab-content{background-size:cover; float:left; min-height:inherit}
+	.facebook-button{margin-bottom:20px;}
+	.checkbox label:before{top:2px}
+	.recharge-bills .nav-tabs{width:620px; height:60px}
+	.merchants .tab-pane .mar-bottom .white{margin-bottom:0}
+	.merchant-name .merchant-logo{width:150px; height:78px; background-size:cover; margin-left:-8px}
+	.merchant-name .merchant-logo img{width:75%}
+	.merchant-name .promo-code-new{float:none; display:block; clear:both; width:75%; margin:0 auto;}
+	.merchant-name .name{font-size:15px}
+	.merchant-name .offers{ border-top:1px solid #eee; margin:20px 0 -10px}
+	.merchant-name .offers a{display:inline-block; float:left; margin-left:0}
+	.merchant-name a.btn{float:right}
+
+	/*----Choose Payment Mode----*/
+	.choose-payment-mode .border{border:none}
+	.choose-payment-mode .select-payment-mode{width:100%!important; overflow:auto; overflow-y:hidden; padding-bottom:2px; margin-bottom:8px}
+	.choose-payment-mode .select-payment-mode ul{border-bottom:1px solid #eee}
+	.choose-payment-mode .select-payment-mode ul li{float:left; width:auto; display:inherit}
+	.choose-payment-mode .select-payment-mode ul li a{padding:10px}
+	.choose-payment-mode .select-payment-mode .nav-tabs>li>a, .choose-payment-mode .nav-tabs>li>a:hover{font-size:14px; border:none; background:transparent}
+	.choose-payment-mode .nav-tabs>li.active>a, .choose-payment-mode .nav-tabs>li.active>a:focus, .choose-payment-mode .nav-tabs>li.active>a:hover{border:none}
+
+	.saved-card .cardtypeicon{float:none!important; margin:0 auto; display:block}
+	.saved-card .cardnumber{float:none!important; display:block; clear:both; text-align:center}
+	.saved-card input.form-control{width:100%; margin-top:15px}
+	.choose-payment-mode .tab-content>.tab-pane{margin:0 -15px}
+
+	/*---choose-payment-mode Hover Border----*/
+	.choose-payment-mode .select-payment-mode li a{-webkit-transform:translateZ(0); transform:translateZ(0); box-shadow:0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility:hidden; backface-visibility:hidden; -moz-osx-font-smoothing:grayscale; position:relative; overflow:hidden;}
+	.choose-payment-mode .select-payment-mode li a:before{content:""; position:absolute; z-index:-1; left:0; right:100%; bottom:0; background:#f5393d; height:1px;   -webkit-transition-property:right; transition-property:right; -webkit-transition-duration:0.3s; transition-duration:0.3s; -webkit-transition-timing-function:ease-out; transition-timing-function:ease-out;}
+	.choose-payment-mode .select-payment-mode li a:hover:before, .choose-payment-mode .select-payment-mode a:focus:before, .choose-payment-mode .select-payment-mode li a:active:before{right:0}
+	.choose-payment-mode .select-payment-mode li.active a:before{right:0}
+
+
+
+
+	/*----Service Page----*/
+	.service-tabs li.active:after{display:none}
+	.service-tabs section{padding-bottom:20px}
+	.merchants .service-tabs-mob{margin-bottom:0}
+	.service-tabs-mob{margin-bottom:10px; z-index:99}
+	.service-tabs-mob section{overflow:auto; overflow-y:hidden; margin:0; padding:0}
+	.service-tabs-mob ul{float:left; padding:0 10px}
+	.service-tabs-mob li{width:auto; border-bottom:2px solid #fff!important}
+	.service-tabs-mob li.active{border-bottom:2px solid #f5393d!important; background:#fff}
+	.service-tabs-mob li a:before, .service-tabs-mob li a:after{display:none}
+	.service-tabs-mob li a{text-align:center; padding:0 12px 0 5px; font-size:14px}
+	.service-tabs-mob li a.double{line-height:50px}
+	.service-tabs-mob li i{background-color:transparent; border:none; height:42px; width:48px; margin:0 5px 0 0;}
+	.service-tabs-mob a.next{display:block; position:absolute; z-index:9; right:16px; top:3px; width:35px; height:43px; background:url(../images/arrow-right.jpg) #fff no-repeat 10px 15px;}
+	.service-tabs-mob a.previous{display:block; position:absolute; z-index:9; left:16px; top:3px; width:35px; height:43px; background:url(../images/arrow-left.jpg) #fff no-repeat  10px 15px;}
+
+	/*--Merchants--*/
+	.merchant-container .nav-tabs>li>a{font-size:14px; margin-right:20px; padding:0 0 10px 0}
+	.merchants .nav-bar a{font-size:14px;}
+	.merchant-relocator ul li{float:left; width:100%; padding:0 1%; margin-bottom:20px}
+	.merchant-relocator .filter-now button{width:100%;}
+
+	/*---- download app----*/
+	.download-app-container{text-align:center}
+	.download-app-container img.chakra{display:block; margin:20px auto; float:none!important}
+	.download-app-container h1{display:block; margin:0 0 10px 0; font-size:24px}
+	.download-app-container p.text{text-align: center; margin:0}
+	.download-app-container h2{margin:30px 0 10px 0; font-size:22px}
+	.download-app a{margin:5px 0}
+	.download-app-container .downloadMobileApp-mobile{position: relative;text-align: center;}
+	.download-app-container .use-oxigen{margin-top: -90px;padding-top: 115px;}
+	/*.download-app-container .use-oxigen span{width:70px; height:70px}
+	.download-app-container .use-oxigen span i{top:10%}*/
+	.my-gift-card .card{width:100%}
+
+	/*Footer*/
+	footer .download-app h2{font-size:17px; margin:0 0 15px 0; text-align:center; float:none!important}
+	footer .download-app .pull-right{float:none!important; text-align:center; display:block}
+	footer .download-app a{margin:5px auto}
+
+	footer .panel-group .panel-default .panel-heading h2 span{display:none}
+	footer .panel-group .panel-default .panel-heading h2 a{display:block; color:#fff; font-size:17px; font-weight:300; border:1px solid #a5a8ac;border-radius:4px; padding:10px; margin:20px 0 0; position:relative}
+	footer .panel-group .panel-default .panel-heading h2 a:hover, footer .panel-group .panel-default .panel-heading h2 a:active, footer .panel-group .panel-default .panel-heading h2 a:focus{text-decoration:none}
+	footer .panel-default>.panel-heading+.panel-collapse>.panel-body{padding:0 15px; border:1px solid #a5a8ac; border-radius:5px}
+	footer .panel-group .panel-default .panel-heading h2 a:after{content:'\e260'; font-family:'Glyphicons Halflings'; position:absolute; border:1px solid #a5a8ac; border-radius:100%; width:25px; height:25px; font-size:13px; right:6px; top:6px; text-align:center; padding:5px 0 0 0}
+	footer .panel-group .panel-default .panel-heading h2 a.collapsed:after{content:'\e259'; font-family:'Glyphicons Halflings'; position:absolute; border:1px solid #a5a8ac; border-radius:100%; width:25px; height:25px; font-size:13px; right:6px; top:6px; text-align:center; padding:5px 0 0 0}
+	footer ul li a, footer ul li a:hover,  footer ul li a:focus, footer ul li a:active{color:#a9c2da; padding:5px 0; text-decoration:none}
+	footer .connect{float:left; width:100%; text-align:center; padding-top:15px}
+	footer .connect h2{font-size:17px; padding-bottom:10px}
+	/*footer .connect a{display:inline-block; padding:0 4px}
+	footer .connect .connect-icon i{margin:0}*/
+	.right-bor{border-right:0}
+	.virtual-visa .blue-bg{background-image:none}
+	.virtual-visa .virtual-benefits li article{width:75%}
+	.prepaid-visa li{width:33.33%; padding:0 2%; min-height:90px}
+	.prepaid-visa li:nth-child(7), .prepaid-visa li:nth-child(8){width:50%}
+	.button-right, .button-left{text-align:center}
+	.blue-white-bg .use-oxigen .icon-arrow:after{display:none}
+	.blue-white-bg .use-oxigen .icon-arrow{margin-bottom:10px}
+	.blue-white-bg .use-oxigen .icon-arrow:nth-child(2):after{display:none}
+	.stratergy-brand{margin-bottom:30px}
+	.stratergy-brand ul li .amount{font-size:30px}
+	.use-oxigen p{margin:0 0 15px 0}
+	.heading-inner h1{font-size:18px}
+	.my-profile .editlist{display:block; margin-top:10px; width:100%}
+	.login-sign-up-popup .modal-content .modal-body{padding-bottom:30px!important}
+
+	#browseplan .well .validity{margin-bottom:20px}
+	.transaction-success, .transaction-failed{font-size:16px}
+
+	.address-bg-payback{background:url(../images/circle-mobile.png) no-repeat center 50% rgba(245,246,260,1);}
+	.address-bg-payback .payback-points{width:35px; height:35px; margin:0 5px}
+	.address-bg-payback .payback-points i.payback{background:url(../images/points-p.png) no-repeat center 4px; background-size:75%}
+	.address-bg-payback .payback-points.rupee{font-size:20px; line-height:36px}
+	.address-bg-payback .pay-points, .address-bg-payback .worth-amount{font-size:11px}
+	.address-bg-payback .pay-points p, .address-bg-payback .worth-amount p{font-size:16px}
+	.address-bg-payback .mobile-space-left{padding-left:0}
+	.address-bg-payback .mobile-space-right{padding-right:0}
+	/*.plus-minus .form-group{width:75%;}*/
+	.payback-card{background:url(../images/payback-card.png) no-repeat 0 0; width:290px; height:180px; background-size:contain}
+
+	.gift-card{min-height:130px}
+	.gift-card p.name{font-size:13px; line-height:normal; margin:0}
+	.share-url{right:5px; top:7px}
+	.merchant-name .offers a{margin:10px 0 0 15px}
+    .captcha-code input.form-control{width:85%; height: 37px}
+	/*----404 error page----*/
+	.message{font-size:17px!important}
+	/*----Social icon----*/
+	.social-icons i.icon{margin:5px 10px 10px 0}
+
+	.download-app-container .use-oxigen{padding:115px 15px 0}
+	.download-app-container .use-oxigen span{width:75px; height:75px}
+	.download-app-container .use-oxigen p{font-size:12px}
+	.download-app-container .use-oxigen span i{top:16%}
+	.download-app-container .use-oxigen i.self-secure{top:20%}
+	.browseplan{height:430px;}
+
+    #memberModal{padding:0!important}
+    #memberModal .modal-content{min-height:100%; min-width:100%; background-color:#f4f7f9; background-image:none}
+    #memberModal .modal-content .modal-body{padding:15px; text-align:center}
+    #memberModal .modal-content .download-app-prompt span{float:none!important; display:block; padding:0 0 10px 0}
+	/*---Table update----*/
+	.table-body .row div{margin-top:3px; margin-bottom:3px; word-wrap:break-word}
+	.table-body .row div strong{font-weight:700}
+	.table-body .row div{font-size:13px}
+	.table-body a i.heart{margin-left:15px}
+	.table-body .btn-default{margin:0 0 0 6px}
+	.table-body a i.call24{margin-left:20px}
+	#pac-input {left: 0 !important; top: 40px !important; width: 90%}
+
+    .merchant-box-mobile{border:none!important; margin-bottom:0}
+    .merchant-box-mobile .bank-details{margin-bottom:20px}
+    .merchant-box-mobile .collapse.in, .merchant-box-mobile .collapsing{padding-top:0!important}
+    .merchant-box-mobile .col-xs-12{padding:0 0;}
+
+}
+
+@media (max-width:320px){
+	.heading-inner h1{font-size:18px}
+	.my-profile .profile-details .btn, .btn-grey, #Login .btn-grey, #signup .btn-grey{font-size:14px}
+
+	.navbar.navbar-default .container{padding-right:0}
+	.navbar-default .navbar-brand{margin-left:10%; width:32px; background:url(../images/logo-320.png) no-repeat 0 0; background-size:contain}
+
+	.menu{float:right}
+	header .nav > li.wallet > a{padding:15px 10px}
+	.navbar-nav{margin:0}
+
+	.btn-primary, .btn.btn-edit-skip{font-size:14px!important}
+	.prepaid-visa li{width:33.33%; padding:0 2%; min-height:90px}
+	.prepaid-visa li:nth-child(7), .prepaid-visa li:nth-child(8){width:50%}
+
+	/*----Merchant----*/
+	.more-merchants a{font-size:14px}
+	.merchant-name .promo-code-new{width:95%}
+	#browseplan .well .validity{margin-bottom:20px}
+	.transaction-success, .transaction-failed{font-size:13px}
+	.payback-card{background:url(../images/payback-card.png) no-repeat 0 0; width:250px; height:157px; background-size:contain}
+	.payback-card .card-points{font-size:30px; top:26%;}
+	.payback-card .card-points img{margin:9px 5px 0 0;}
+	.address-bg-payback{background:url(../images/circle-mobile.png) no-repeat center 50% rgba(245,246,260,1); margin-left:-20px; margin-right:-20px; width:117%;}
+	.address-bg-payback .payback-points{width:30px; height:30px; margin:0 5px}
+	.address-bg-payback .payback-points i.payback{background:url(../images/points-p.png) no-repeat center 3px; background-size:60%}
+	.address-bg-payback .payback-points.rupee{font-size:17px; line-height:30px}
+	.address-bg-payback .pay-points p, .address-bg-payback .worth-amount p{font-size:16px}
+	.address-bg-payback .mobile-space-left{padding-left:0}
+	.address-bg-payback .mobile-space-right{padding-right:0; padding-left:20px}
+
+	/*.plus-minus .form-group{width:67%}*/
+	.gift-card{min-height:110px}
+	.gift-card p.name{font-size:13px; line-height:normal; margin:0}
+	.share-url{right:5px; top:7px}
+	.merchant-name .name{font-size:12px; padding:0;}
+	.merchant-name .offers a{margin:10px 0 0 15px}
+    .captcha-code input.form-control{width:83%; height: 37px}
+	/*----Social icon----*/
+	.social-icons i.icon{margin:5px 10px 10px 0}
+	.download-app-container .use-oxigen{padding:115px 15px 0}
+	.download-app-container .use-oxigen span{width:75px; height:75px}
+	.download-app-container .use-oxigen p{font-size:12px}
+	.download-app-container .use-oxigen span i{top:16%}
+	.download-app-container .use-oxigen i.self-secure{top:20%}
+	/*----Table Update----*/
+	.table-body .btn-default{margin:5px 0 0 0}
+	.table-body a i.heart{margin-left:15px}
+
+	#pac-input {left: 0 !important; top: 40px !important; width: 90%}
+
+}
+.mobiletest-div{display:none}
+.gift-card .card .expire-hover{background:rgba(0,0,0,0.7) url(../images/delete.png) no-repeat center 39%;opacity:0;position:absolute;width:100%;height:100%;left:0;bottom:0;border-radius:5%;transition:all .5s ease;text-transform:uppercase;color:#fff;padding-top:37%;text-align:center;cursor:pointer}
+.gift-card .card:hover .expire-hover,.gift-card .card:focus .expire-hover{opacity:1;cursor:pointer}
+
+
+
+
+
+/*rupay*/
+.smlnote{color: #afafaf;font-size: 11px;font-style: italic;}
+.service-tabs li i.etn, .service-tabs li.rupaycard i.food-m{background-position: 7px -153px;}
+.mt0{margin-top:0;}
+
+#rupay-otp .modal-dialog, #act-rupay .modal-dialog{max-width:415px;}
+
+.person-icon{background-position: -409px 2px;}
+.email-show{display:inline;}
+.nobgr{ background:#fff;}
+.no-rt-brdr{border-right:none;}
+    .onoffswitch {
+        position: relative; width: 30px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+        display: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border:none; border-radius: 18px;
+    }
+    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 13px; padding: 0; line-height: 10px;
+        font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+        content: "";
+        padding-left: 10px;
+        background-color: #96b0c9; color: #B83B3B;
+    }
+    .onoffswitch-inner:after {
+        content: "";
+        padding-right: 10px;
+        background-color: #c4d4e3; color: #999999;
+        text-align: right;
+    }
+    .onoffswitch-switch {
+        display: block; width: 20px; margin: -3.5px;
+        background: #A1A1A1;
+        position: absolute; top: 0; bottom: 0;
+        right: 15px;
+        border: none; border-radius: 18px;
+        transition: all 0.3s ease-in 0s;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px;
+        background-color: #0a4685;
+    }
+
+
+.dropdown-icon .input-group{
+	background: #fff;
+}
+.dropdown-icon select{
+	background: url(../images/select-arrow.gif) no-repeat top right 0px!important;
+}
+.matched{font-size:12px; color:#1dad41; line-height:18px; background:url(../images/matched.png) no-repeat 0 0; padding-left:22px;display: block}
+ 
+ 
+/////////////////////////////
+ .BookOnItcare{
+        margin-top: 12px;
+    }
+    .itcare-img-responsive{
+
+    }
+    .book-icon{
+        width: 100px !important;
+    }
+    .thumbnailProduct{
+        padding-right: 0px; 
+        padding-left: 0px;
+        margin-bottom: -31px;
+        width: 33%
+    }
+    .thumbnailProduct p{
+        line-height: 0px;
+    }
+@media (max-width: 500px){
+    .client-feedback img {
+      margin: auto;
+      float: none;
+      display: block;
+  }}
+  .client-feedback {
+ border: 2px solid rgba(211, 47, 47, 0.57);
+    background-color: rgb(244, 247, 249);
+    border-radius: 7px;
+    padding: 5px;
+    margin: 3px 0;
+}
+
+.client-feedback::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.client-feedback img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.client-feedback span {
+  font-size: 20px;
+  margin-right: 15px;
+}
